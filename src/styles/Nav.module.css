@@ -130,11 +130,13 @@
   .navLogo {
     font-size: 2.1rem;
     font-weight: 900;
-    color: #2f2207;
+    color: #000;
+    letter-spacing: 2px;
   }
   
   .web {
-    color: #000;
+    color: #fff;
+    letter-spacing: 2px;
   }
   
   .navButton {
@@ -188,6 +190,8 @@
     .hamburger {
       display: block;
       cursor: pointer;
+      color: #000 !important;
+      z-index: 100;
     }
   
     .hamburger.active .bar:nth-child(2) {
