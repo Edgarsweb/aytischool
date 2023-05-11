@@ -24,7 +24,7 @@ function Footer() {
 
         <div className={footerStyles.row}>
           <div className={footerStyles.footerBlock}>
-            <h6>EdxWeb</h6>
+            <h6>Codinvest</h6>
             <p className={footerStyles.footerDescription}>EdxWeb is a web design & SEO Agency in Yerevan and New York. Specializing in website design, e-commerce, digital strategy & Search Engine Optimization</p>
 
             <div className={footerStyles.socialMedia}>
@@ -107,7 +107,7 @@ function Footer() {
         <div className={footerStyles.copyright}>
           <p className={footerStyles.copyrightText}>
             {" "}
-            Copyright © 2023 <a href="https://www.edxweb.com/">EdxWeb</a>
+            Copyright © 2023 <a href="https://www.edxweb.com/">Codinvest</a>
           </p>
         </div>
       </footer>

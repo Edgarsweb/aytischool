@@ -11,6 +11,7 @@ import {
   RightOutlined 
 } from "@ant-design/icons";
 import Testimonials from "../../components/Testimonials";
+import Courses from "../../components/Courses";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -71,9 +72,10 @@ export default function Home() {
          
         </section>
 
-        <section>
+       <Courses/>
           <Testimonials />
-        </section>
+
+       
       </main>
     </>
   );

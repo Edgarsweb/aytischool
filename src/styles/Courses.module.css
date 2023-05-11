@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    max-width: 1290px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.filter {
+    border-right: 1px solid #808080;
+}
