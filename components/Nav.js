@@ -4,6 +4,17 @@ import React from "react";
 import navStyles from "@/styles/Nav.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import {
+  PhoneOutlined,
+  InstagramOutlined,
+  LinkedinOutlined,
+  FacebookOutlined,
+  TwitterOutlined,
+  YoutubeOutlined,
+  MailOutlined,
+  WhatsAppOutlined,
+  SendOutlined
+} from "@ant-design/icons";
 // import logo from "../pages/images/3.png";
 
 const Nav = () => {
@@ -22,7 +33,7 @@ const Nav = () => {
             height="84"
           /> */}
           <span className={navStyles.navLogo}>
-            Cod<span className={navStyles.web}>invest</span>{" "}
+            IT<span className={navStyles.web}>Gym</span>{" "}
           </span>
         </Link>
         {/* </li> */}
@@ -61,7 +72,31 @@ const Nav = () => {
             </Link>
           </li>
 
+          <div className={navStyles.links}>
+          <li>
+          <Link href="tel:+37493007110">
+          <span>
+          <PhoneOutlined /> 
           
+          </span>
+        </Link>
+          </li>
+        
+        <li>
+          <Link href="mailto:edgarwyn@gmail.com"> 
+          <span>
+          <MailOutlined />
+          </span>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="https://wa.me/79253807313"> 
+          <span>
+          <WhatsAppOutlined/>
+          </span>
+          </Link>
+        </li>
 
           <li className={navStyles.navItem} onClick={openMenu}>
             <Link href="/contact">
@@ -77,13 +112,17 @@ const Nav = () => {
             </Link>
           </li>
 
-          {/* <li>
-          <a href="mailto:info@edxweb.com ">
-          <span>
-            <span className={navStyles.navButton}>Start your project</span>
-          </span>
-        </a>
-          </li> */}
+
+        </div>
+
+          
+        
+
+          
+
+         
+
+         
         </ul>
 
        

@@ -12,7 +12,8 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    margin: 0px 153px;
+    /* margin: 0px 153px; */
+    max-width: 1290px;
   }
   
   .footerBlock {

@@ -38,10 +38,10 @@ function Tutorials() {
         </div>
       </div>
 
-      <h2 className={tutorials.title}>
+      <h2 className={tutorials.title} >
       <ReadOutlined className={tutorials.bookIcon} /> Դասընթացներ
       </h2>
-      <div className={tutorials.container}>
+      <div className={tutorials.container} id="#courses">
         <Card
           className={tutorials.card}
           hoverable
