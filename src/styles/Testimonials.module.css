@@ -28,6 +28,7 @@
 .testimonials h2 {
   font-size: 64px;
   font-weight: 700;
+  margin: 20px 0px;
 }
 
 .snip1192 {
@@ -141,5 +142,9 @@
 
   .snip1192:nth-child(1) {
     margin: 0px;
+  }
+
+  .blocks h2 {
+    font-size: 32px;
   }
 }

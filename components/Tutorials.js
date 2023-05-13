@@ -13,7 +13,9 @@ import {
   CopyOutlined,
   TagsOutlined,
   DashOutlined,
+  ArrowRightOutlined
 } from "@ant-design/icons";
+import Anime from "./Anime";
 
 function Tutorials() {
   const { Meta } = Card;
@@ -24,14 +26,20 @@ function Tutorials() {
           <div className={tutorials.track}>
             <div className={tutorials.content}>
               <h2>
-                <DashOutlined /> Frontend / Backend / FullStack / HTML / CSS / Bootstrap / Email marketing / Javascript / React.js / Next.js /WordPress / SEO / GOOGLE Ads / Digital Marketing / GoDaddy / cPanel /Cloudflare / SSL / Freelance / Website maintenance <DashOutlined />
+                <DashOutlined /> Frontend / Backend / FullStack / HTML / CSS /
+                Bootstrap / Email marketing / Javascript / React.js / Next.js
+                /WordPress / SEO / Google Ads / Digital Marketing / GoDaddy /
+                cPanel / Cloudflare / SSL / Freelance / Website maintenance{" "}
+                <DashOutlined />
               </h2>
             </div>
           </div>
         </div>
       </div>
 
-      <h1>Latest Courses</h1>
+      <h2 className={tutorials.title}>
+        <Anime /> Դասընթացներ
+      </h2>
       <div className={tutorials.container}>
         <Card
           className={tutorials.card}
@@ -49,8 +57,94 @@ function Tutorials() {
           <Meta title="Programming from scratch" description="HTML CSS JS" />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>20 weeks</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>40 classes</p>
+            <p>20 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
+          </div>
+
+          <div className={tutorials.stars}>
+            4.9
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+          </div>
+
+          <div className={tutorials.prices}>
+            <div className={tutorials.priceMonth}>
+              <span>50$</span>
+              <p>Ամսեկան</p>
+            </div>
+
+            <div className={tutorials.priceCourse}>
+              <span>150$</span>
+              <p>Ընդհանուր</p>
+            </div>
+          </div>
+
+          <button>Մանրամասներ <ArrowRightOutlined /></button>
+        </Card>
+        <Card
+          className={tutorials.card}
+          hoverable
+          cover={
+            <Image
+              src={tut}
+              alt="HTML CSS image"
+              width="100%"
+              height="100%"
+              priority
+            />
+          }
+        >
+          <Meta title="Programming from scratch" description="HTML CSS JS" />
+          <div className={tutorials.details}>
+            <TagsOutlined className={tutorials.icon} />
+            <p>20 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
+          </div>
+
+          <div className={tutorials.stars}>
+            4.9
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+            <StarOutlined className={tutorials.star} />
+          </div>
+
+          <div className={tutorials.prices}>
+            <div className={tutorials.priceMonth}>
+              <span>50$</span>
+              <p>Ամսեկան</p>
+            </div>
+
+            <div className={tutorials.priceCourse}>
+              <span>150$</span>
+              <p>Ընդհանուր</p>
+            </div>
+          </div>
+
+          <button>Մանրամասներ <ArrowRightOutlined /></button>
+        </Card>
+        <Card
+          className={tutorials.card}
+          hoverable
+          cover={
+            <Image
+              src={tut}
+              alt="HTML CSS image"
+              width="100%"
+              height="100%"
+              priority
+            />
+          }
+        >
+          <Meta title="Programming from scratch" description="HTML CSS JS" />
+          <div className={tutorials.details}>
+            <TagsOutlined className={tutorials.icon} />
+            <p>20 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
             {/* <EditOutlined />  */}
           </div>
 
@@ -66,53 +160,16 @@ function Tutorials() {
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
               <span>50$</span>
-              <p>Month</p>
+              <p>Ամսեկան</p>
             </div>
 
             <div className={tutorials.priceCourse}>
               <span>150$</span>
-              <p>Course</p>
+              <p>Ընդհանուր</p>
             </div>
           </div>
 
-          <button>Enroll</button>
-          {/* <TrophyOutlined /> <p>bestseller</p> */}
-        </Card>
-
-        <Card
-          className={tutorials.card}
-          hoverable
-          cover={
-            <Image
-              src={tut}
-              alt="HTML CSS image"
-              width="100%"
-              height="100%"
-              priority
-            />
-          }
-        >
-          <Meta title="HTML CSS JS" description="www.instagram.com" />
-          <span>50$</span>
-          <button>Enroll</button>
-        </Card>
-
-        <Card
-          className={tutorials.card}
-          hoverable
-          cover={
-            <Image
-              src={tut}
-              alt="HTML CSS image"
-              width="100%"
-              height="100%"
-              priority
-            />
-          }
-        >
-          <Meta title="HTML CSS JS" description="www.instagram.com" />
-          <span>50$</span>
-          <button>Enroll</button>
+          <button>Մանրամասներ <ArrowRightOutlined /></button>
         </Card>
       </div>
     </div>

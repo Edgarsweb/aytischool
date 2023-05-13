@@ -5,11 +5,7 @@ import styles from "@/styles/Home.module.css";
 import heroImage from "../pages/images/stud.png";
 import students from "../pages/images/students.jpg";
 import Anime from "../../components/Anime";
-import {
-  EditOutlined ,
-  StarOutlined,
-  RightOutlined 
-} from "@ant-design/icons";
+import { EditOutlined, StarOutlined, RightOutlined } from "@ant-design/icons";
 import Testimonials from "../../components/Testimonials";
 import Courses from "../../components/Courses";
 import Tutorials from "../../components/Tutorials";
@@ -26,57 +22,54 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section >
+        <section>
           <div className={styles.firstBlock}>
-             <div className={styles.block}>
-            <h1>Սովորիր ծրագրավորում, մարքեթինգ և ֆրիլանս</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur magnam et illo, officiis hic nemo earum obcaecati qui
-              aliquam optio expedita consectetur, facilis quas voluptate facere.
-              Voluptatibus neque culpa nisi.
-            </p>
-            <button className={styles.button}><EditOutlined className={styles.icon}/> Գրանցվիր հիմա</button>
-          </div>
-
-          <div className={styles.block}>
-            <div className={styles.imageText}>
-              <div className={styles.chunks}>
-                <div className={styles.chunk}>
-                <span>4.000 <RightOutlined /></span>
-                <p>Հետևորդներ</p>
-              </div>
-
-              <div className={styles.chunk}>
-                <span>4.8 <StarOutlined className={styles.star} /></span>
-                <p>Վարկանիշ</p>
-              </div>
-              </div>
-              
-            
-
-            <div className={styles.chunks}>
-          
-              <Image
-                src={heroImage}
-                alt="Hero image"
-                // className={styles.vercelLogo}
-                width="100%"
-                height="100%"
-                priority
-              />
+            <div className={styles.block}>
+              <h1>Սովորիր ծրագրավորում, մարքեթինգ և ֆրիլանս</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur magnam et illo, officiis hic nemo earum obcaecati
+                qui aliquam optio expedita consectetur, facilis quas voluptate
+                facere. Voluptatibus neque culpa nisi.
+              </p>
+              <button className={styles.button}>
+                <EditOutlined className={styles.icon} /> Գրանցվիր հիմա
+              </button>
             </div>
 
+            <div className={styles.block}>
+              <div className={styles.imageText}>
+                <div className={styles.chunks}>
+                  <div className={styles.chunk}>
+                    <span>
+                      4.000 <RightOutlined />
+                    </span>
+                    <p>Հետևորդներ</p>
+                  </div>
+
+                  <div className={styles.chunk}>
+                    <span>
+                      4.8 <StarOutlined className={styles.star} />
+                    </span>
+                    <p>Վարկանիշ</p>
+                  </div>
+                </div>
+
+                <div className={styles.chunks}>
+                  <Image
+                    src={heroImage}
+                    alt="Hero image"
+                    width="100%"
+                    height="100%"
+                    priority
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-         
         </section>
-<Tutorials/>
-       {/* <Courses/> */}
-          <Testimonials />
-
-       
+        <Tutorials />
+        <Testimonials />
       </main>
     </>
   );

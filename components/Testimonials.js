@@ -11,9 +11,8 @@ function Testimonials() {
       <div className={testimonials.testimonials}>
         
 
-        <div className={testimonials.blocks}>
-          {" "}
-          <h2>What Our students say</h2>
+        <div className={testimonials.blocks}>         
+          <h2>Մասնագիտական կարծիքներ</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
             obcaecati pariatur odit doloremque veritatis cum, ipsum aliquid
