@@ -12,21 +12,25 @@ import {
   FileDoneOutlined,
   CopyOutlined,
   TagsOutlined,
-  DashOutlined
+  DashOutlined,
 } from "@ant-design/icons";
 
 function Tutorials() {
   const { Meta } = Card;
   return (
     <div>
-        <div className={tutorials.marqueeCont}>
-           <div className={tutorials.marquee}>
-  <div className={tutorials.track}>
-    <div className={tutorials.content}><h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur unde molestiae deserunt aliquam asperiores? Maxime quam similique maiores enim voluptatum vero praesentium, eum delectus obcaecati. Blanditiis neque soluta nemo magnam.</h2></div>
-  </div>
-</div>   
+      <div className={tutorials.marqueeCont}>
+        <div className={tutorials.marquee}>
+          <div className={tutorials.track}>
+            <div className={tutorials.content}>
+              <h2>
+                <DashOutlined /> Frontend / Backend / FullStack / HTML / CSS / Bootstrap / Email marketing / Javascript / React.js / Next.js /WordPress / SEO / GOOGLE Ads / Digital Marketing / GoDaddy / cPanel /Cloudflare / SSL / Freelance / Website maintenance <DashOutlined />
+              </h2>
+            </div>
+          </div>
         </div>
-      
+      </div>
+
       <h1>Latest Courses</h1>
       <div className={tutorials.container}>
         <Card
