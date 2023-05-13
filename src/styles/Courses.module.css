@@ -1,10 +1,219 @@
-.container {
-    display: flex;
-    max-width: 1290px;
-    justify-content: space-between;
-    margin: auto;
+/* .container {
+  display: flex;
+  max-width: 1290px;
+  justify-content: space-between;
+  margin: auto;
 }
 
-.filter {
-    border-right: 1px solid #808080;
+.sidebar {
+  border-right: 1px solid gray;
+  height: auto;
+  max-width: 300px;
+  text-align: left;
 }
+
+@media (max-width: 767px) {
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left;
+  }
+} */
+
+
+
+
+
+/* TABS  */
+.container {
+  display: flex;
+  max-width: 1290px;
+  margin:  50px auto ;
+  justify-content: space-between;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.blockTabs {
+    border-right: 1px solid gray;
+    /* min-height: 600px; */
+    max-width: 400px;
+    text-align: left;
+    padding-right: 100px;
+}
+
+
+.tabs {
+  /* padding: 5px 15px; */
+  text-align: center;
+display: block;
+  background: #00dfd8;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.activeTabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.activeTabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  /* background: rgb(88, 147, 241); */
+}
+
+.blockTabs button {
+  border: none;
+
+  /* padding: 20px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #222;
+  /* border-radius: 20px; */
+  margin: 20px 20px;
+}
+.contentTabs {
+  flex-grow: 1;
+  max-width: 700px;
+}
+.tabTextImg {
+  display: flex;
+  justify-content: space-between;
+}
+.tabTextImg p{
+ max-width: 700px;
+ margin-right: 50px;
+}
+
+.tabImg {
+  max-width: 600px;
+  height: 400px;
+}
+
+.tabImg img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.activeContent {
+  display: block;
+  background: #00dfd8;
+}
+
+@media only screen and (max-width: 768px) {
+  .firstBlock,
+  .secondBlock {
+    flex-direction: column;
+  }
+
+  .firstBlock .leftBlock {
+    margin-right: 0px;
+  }
+
+  .rotatingImage {
+    margin: 50px 0 0 0;
+  }
+
+  .rotatingImage img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .secondBlock img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .serviceLink {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .secondBlock .leftBlock {
+    margin-left: 0px;
+  }
+
+  .section {
+    flex-direction: column;
+    grid-template-columns: auto;
+  }
+
+  .blockTabs button {
+    border: none;
+    /* padding: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* border-radius: 20px; */
+    margin: 5px 5px;
+  }
+
+  .tabTextImg {
+    flex-direction: column;
+  }
+  .tabTextImg p{
+   max-width: 600px;
+   margin-right: 0px;
+  }
+
+  .button {
+   text-align: center;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+    .container {
+     flex-direction: column;
+     padding: 15px;
+    }
+
+    .blockTabs {
+        border-right: none;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    .blockTabs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }

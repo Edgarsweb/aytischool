@@ -12,6 +12,7 @@ import {
 } from "@ant-design/icons";
 import Testimonials from "../../components/Testimonials";
 import Courses from "../../components/Courses";
+import Tutorials from "../../components/Tutorials";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -71,8 +72,8 @@ export default function Home() {
           </div>
          
         </section>
-
-       <Courses/>
+<Tutorials/>
+       {/* <Courses/> */}
           <Testimonials />
 
        
