@@ -15,6 +15,7 @@ function Courses() {
     //   <div>Courses</div>
     // </div>
     <div>
+   
     <div className={courses.container}>
       <div className={courses.blockTabs}>
         <button
