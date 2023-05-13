@@ -13,7 +13,8 @@ import {
   CopyOutlined,
   TagsOutlined,
   DashOutlined,
-  ArrowRightOutlined
+  ArrowRightOutlined,
+  ReadOutlined
 } from "@ant-design/icons";
 import Anime from "./Anime";
 
@@ -38,7 +39,7 @@ function Tutorials() {
       </div>
 
       <h2 className={tutorials.title}>
-        <Anime /> Դասընթացներ
+      <ReadOutlined className={tutorials.bookIcon} /> Դասընթացներ
       </h2>
       <div className={tutorials.container}>
         <Card
