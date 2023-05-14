@@ -56,11 +56,7 @@
     margin: auto;
   }
 
-  .links {
-    display: flex;
-    font-size: 16px;
-    color: #fff !important;
-  }
+
 
   .navbar ul li {
     list-style: none;
@@ -90,17 +86,17 @@
   }
   
   .navItem {
-    /* text-transform: uppercase; */
+
     margin: 0px 15px;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    width: 150px;
+    /* width: 150px; */
     list-style: none;
   }
 
 
-  .navItem:nth-child(3) {
+  .navItem:nth-child(13) {
     background-color: #000;
     border: 1px solid #000;
     color: #fff;
@@ -194,7 +190,7 @@
       font-size: 36px;
       font-weight: 900;
       color: #373737;
-      width: 300px;
+      /* width: 300px; */
       text-align: center;
     }
   

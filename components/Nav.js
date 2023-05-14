@@ -71,9 +71,9 @@ const Nav = () => {
               </span>
             </Link>
           </li>
-
+{/* 
           <div className={navStyles.links}>
-          <li>
+          <li className={navStyles.navItem} onClick={openMenu}>
           <Link href="tel:+37493007110">
           <span>
           <PhoneOutlined /> 
@@ -82,7 +82,7 @@ const Nav = () => {
         </Link>
           </li>
         
-        <li>
+        <li className={navStyles.navItem} onClick={openMenu}>
           <Link href="mailto:edgarwyn@gmail.com"> 
           <span>
           <MailOutlined />
@@ -90,13 +90,14 @@ const Nav = () => {
           </Link>
         </li>
 
-        <li>
+        <li className={navStyles.navItem} onClick={openMenu}>
           <Link href="https://wa.me/79253807313"> 
           <span>
           <WhatsAppOutlined/>
           </span>
           </Link>
         </li>
+        </div> */}
 
           <li className={navStyles.navItem} onClick={openMenu}>
             <Link href="/contact">
@@ -113,7 +114,7 @@ const Nav = () => {
           </li>
 
 
-        </div>
+     
 
           
         
