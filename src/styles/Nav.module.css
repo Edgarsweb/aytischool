@@ -14,7 +14,7 @@ background: linear-gradient(to right, #8f94fb, #4e54c8);
 
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
+  /* padding: 1rem 0rem; */
   max-width: 1290px;
   margin: auto;
 
