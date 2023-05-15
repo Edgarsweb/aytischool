@@ -9,6 +9,7 @@ import { EditOutlined, StarOutlined, RightOutlined,  MailOutlined, } from "@ant-
 import Testimonials from "../../components/Testimonials";
 import Courses from "../../components/Courses";
 import Tutorials from "../../components/Tutorials";
+import Link from "next/link";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -29,9 +30,11 @@ export default function Home() {
               <p>
                 Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
               </p>
-              <button className={styles.button}>
+              <Link href="/contact"><button className={styles.button}>
                 <EditOutlined className={styles.icon} /> Գրանցվիր հիմա
               </button>
+              </Link>
+              
             </div>
 
             <div className={styles.block}>
@@ -84,9 +87,11 @@ export default function Home() {
               <p>
                 Ընթացակարգ՝ ընտրում եք դասընթացը, եթե կան հարցեր կապնվում եք մեր մասնագետի հետ, իսկ եթե ամեն-ինչ պարզ է կարող էք կոնտակ էջում լրացնել ձեր տվյալները և դասընթացի փաթեթը, որի համար ուզում եք գրանցվել։ Այնուհետև մեր մասնագետները կկապնվեն Ձեզ հետ և կքննարկեն հետագա քայլերը։
               </p>
-              <button className={styles.button}>
+              <Link href="/contact">  <button className={styles.button}>
                 <MailOutlined className={styles.icon} /> Կապ մեզ հետ
               </button>
+              </Link>
+            
             </div>
           </div>
         </div>
