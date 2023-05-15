@@ -24,64 +24,56 @@ function Footer() {
 
         <div className={footerStyles.row}>
           <div className={footerStyles.footerBlock}>
-            <h6>Codinvest</h6>
-            <p className={footerStyles.footerDescription}>EdxWeb is a web design & SEO Agency in Yerevan and New York. Specializing in website design, e-commerce, digital strategy & Search Engine Optimization</p>
+            <h6>Algoschool</h6>
+            <p className={footerStyles.footerDescription}>Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։</p>
 
             <div className={footerStyles.socialMedia}>
-              <a href="https://www.instagram.com/edxweb/">
+              <a href="https://instagram.com/algoschool.co?igshid=MzRlODBiNWFlZA==/">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
 
-              <a href="https://www.linkedin.com/company/edxweb/">
+              {/* <a href="https://www.linkedin.com/company/edxweb/">
                 <LinkedinOutlined className={footerStyles.Linkedin} />
-              </a>
+              </a> */}
 
-              <a href="https://www.facebook.com/Edgarweb.site/">
+              <a href="https://www.facebook.com/profile.php?id=100057426047883&mibextid=LQQJ4d/">
                 <FacebookOutlined className={footerStyles.Facebook} />
               </a>
 
-              <a href="https://twitter.com/Edxweb1">
+              {/* <a href="https://twitter.com/Edxweb1">
                 <TwitterOutlined className={footerStyles.Twitter} />
-              </a>
+              </a> */}
 
-              <a href="#">
+              {/* <a href="#">
                 <YoutubeOutlined className={footerStyles.Youtube} />
-              </a>
+              </a> */}
             </div>
           </div>
 
           <div className={footerStyles.footerBlock}>
-            <h6>MENU</h6>
+            <h6>Ցանկ</h6>
             <ul>
               <li>
-                <Link href="/">About</Link>
-              </li>
-
-              <li>
-                <Link href="/services">Services</Link>
+                <Link href="/">Գլխավոր</Link>
               </li>
 
               {/* <li>
-                <Link href="/pricing">Pricing</Link>
+                <Link href="/services">Services</Link>
               </li> */}
 
-              <li>
-                <Link href="/work">Work</Link>
-              </li>
+              
+            
 
              
 
-              {/* <li>
-                <Link href="/products">Products</Link>
-              </li> */}
 
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact">Կապ</Link>
               </li>
             </ul>
           </div>
 
-          <div className={footerStyles.footerBlock}>
+          {/* <div className={footerStyles.footerBlock}>
             <h6>Useful Links</h6>
 
             <Link href="/privacyPolicy">Privacy Policy</Link>
@@ -91,12 +83,12 @@ function Footer() {
             <Link href="/contact">
               Investor Relations
             </Link>
-          </div>
+          </div> */}
 
           <div className={footerStyles.footerBlock}>
-            <h6>VIA</h6>
-            <a href="mailto:info@edxweb.com">
-            <MailOutlined />  Email
+            <h6>Այլ</h6>
+            <a href="mailto:edgarwyn@gmail.com">
+            <MailOutlined />  Էլ․փոստ
             </a>
             <a href="https://wa.me/+79253807313">
             <WhatsAppOutlined /> Whatsapp
@@ -107,7 +99,7 @@ function Footer() {
         <div className={footerStyles.copyright}>
           <p className={footerStyles.copyrightText}>
             {" "}
-            Copyright © 2023 <a href="https://www.edxweb.com/">Codinvest</a>
+            Copyright © 2023 <a href="https://www.algoschool.co/">Algoschool</a>
           </p>
         </div>
       </footer>

@@ -3,9 +3,9 @@ import Image from "next/image";
 // import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import heroImage from "../pages/images/stud.png";
-import students from "../pages/images/students.jpg";
-import Anime from "../../components/Anime";
-import { EditOutlined, StarOutlined, RightOutlined } from "@ant-design/icons";
+import register from "../pages/images/register.png";
+
+import { EditOutlined, StarOutlined, RightOutlined,  MailOutlined, } from "@ant-design/icons";
 import Testimonials from "../../components/Testimonials";
 import Courses from "../../components/Courses";
 import Tutorials from "../../components/Tutorials";
@@ -27,10 +27,7 @@ export default function Home() {
             <div className={styles.block}>
               <h1>Սովորիր ծրագրավորում, մարքեթինգ և ֆրիլանս</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur magnam et illo, officiis hic nemo earum obcaecati
-                qui aliquam optio expedita consectetur, facilis quas voluptate
-                facere. Voluptatibus neque culpa nisi.
+                Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
               </p>
               <button className={styles.button}>
                 <EditOutlined className={styles.icon} /> Գրանցվիր հիմա
@@ -69,6 +66,30 @@ export default function Home() {
           </div>
         </section>
         <Tutorials />
+
+        <div className={styles.whyUs}>
+          <div className={styles.chunks}>
+            {" "}
+            <Image
+              src={register}
+              alt="Hero image"
+              width="100%"
+              height="100%"
+              priority
+            />
+          </div>
+          <div>
+            <div className={styles.block}>
+              <h2>Դասընթացներին գրանցվելու ընթացակարգ</h2>
+              <p>
+                Ընթացակարգ՝ ընտրում եք դասընթացը, եթե կան հարցեր կապնվում եք մեր մասնագետի հետ, իսկ եթե ամեն-ինչ պարզ է կարող էք կոնտակ էջում լրացնել ձեր տվյալները և դասընթացի փաթեթը, որի համար ուզում եք գրանցվել։ Այնուհետև մեր մասնագետները կկապնվեն Ձեզ հետ և կքննարկեն հետագա քայլերը։
+              </p>
+              <button className={styles.button}>
+                <MailOutlined className={styles.icon} /> Կապ մեզ հետ
+              </button>
+            </div>
+          </div>
+        </div>
         <Testimonials />
       </main>
     </>

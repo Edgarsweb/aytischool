@@ -10,6 +10,9 @@ import {
   CompassOutlined,
   PhoneOutlined,
   MailOutlined,
+  HomeOutlined,
+  FolderOpenOutlined ,
+  BankOutlined 
 } from "@ant-design/icons";
 import Link from "next/link";
 
@@ -29,23 +32,27 @@ function contact() {
         />
       </Head>
       <div className={contactStyles.containerBody}>
-        <h1 className={contactStyles.title}>
-         Let’s discuss Your great project
-        </h1>
+        <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Կապ մեզ հետ</h1>
         <div className={contactStyles.contactBlock}>
           <div className={contactStyles.textBlock}>
-            <h2>Reach Out</h2>
-            <p>We are here to help You 24/7</p>
-            <p><CompassOutlined /> Tigran Mets 31 Ave.</p>
-          <p>Yerevan, Armenia, 0018</p>
-         
+           
+            <p>
+              Մեր մասնագետները կպատասխանեն Ձեզ հնարավորինս շուտ
+            </p>
+            
+            <p><CompassOutlined className={contactStyles.icon}/> Երևան, Հայաստան, 0018</p>
+            <p><FolderOpenOutlined className={contactStyles.icon}/>  ԱՁ <b>"Էդգար Հովհաննիսյան Խաչիկի"</b> </p>
+            <p><BankOutlined className={contactStyles.icon}/> Բանկ - <b>Ամերիաբանկ ՓԲԸ</b>  <br />
+Հաշվեհամար - <b>1570064780750100 </b> <br /> Նպատակ (պարտադիր է լրացման համար) - <b>Ուսման վարձ</b>  </p>
+            <p> <HomeOutlined className={contactStyles.icon}/> Իրավաբանական հասցե՝ <b>Տիգրան Մեծ 31-84</b> 
+            </p>
             <a href="tel:+37493007110">
               <PhoneOutlined className={contactStyles.icon} /> +374 93 007 110
             </a>
-       
-            <a href="mailto:info@edxweb.com">
+
+            {/* <a href="mailto:info@edxweb.com">
               <MailOutlined className={contactStyles.icon} /> info@edxweb.com
-            </a>
+            </a> */}
           </div>
           {/* <div className={contactStyles.textBlock}>
           <h3>New York</h3>
@@ -59,39 +66,49 @@ function contact() {
             method="POST"
             className={contactStyles.form}
           >
-            <h3>Get in touch</h3>
+            {/* <h3>Get in touch</h3> */}
             <input
               className={contactStyles.input}
               type="text"
               name="name"
-              placeholder="Name *"
+              placeholder="Անուն Ազգանուն*"
+              required
+            />
+            <input
+              className={contactStyles.input}
+              type="tel"
+              name="name"
+              placeholder="Հեռախոսահամար *"
               required
             />
             <input
               className={contactStyles.input}
               type="email"
               name="email"
-              placeholder="Email *"
+              placeholder="Էլ․ փոստի հասցե"
+            />
+            <input
+              className={contactStyles.input}
+              type="text"
+              name="text"
+              placeholder="Նշել փաթեթը*"
               required
             />
-
-          
             <textarea
               className={contactStyles.textarea}
               name=""
-              placeholder="Your Message  "
-              id=""
+              placeholder="Նամակ  "
             ></textarea>
             <button className={contactStyles.button} type="submit">
-              Send <SendOutlined />
-            </button>
-            <p className={contactStyles.privacyLink}>
+              Ուղարկել <SendOutlined />
+            </button>{" "}
+            <br />
+            {/* <p className={contactStyles.privacyLink}>
               By clicking submit you agree to our
               <Link href="/privacyPolicy">
                 <span> Terms of Service and Privacy Policy.</span>
-                
               </Link>
-            </p>
+            </p> */}
           </form>
         </div>
       </div>

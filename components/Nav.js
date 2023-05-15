@@ -1,40 +1,40 @@
 import Link from "next/link";
 import React from "react";
-// import Image from "next/image";
 import navStyles from "@/styles/Nav.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
+// import en from '../locales/en';
+// import hy from '../locales/hy';
 import {
+  TwitterOutlined ,
   PhoneOutlined,
-  InstagramOutlined,
-  LinkedinOutlined,
-  FacebookOutlined,
-  TwitterOutlined,
-  YoutubeOutlined,
   MailOutlined,
-  WhatsAppOutlined,
-  SendOutlined
 } from "@ant-design/icons";
-// import logo from "../pages/images/3.png";
+// import {coinPic} from "../public/coin.png"
 
 const Nav = () => {
+  const router = useRouter();
+  const { locale } = router;
+  // const t = locale === 'en' ? en : hy;
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
-  const router = useRouter();
+ 
   const currentRoute = router.pathname;
+  
+  const changeLanguage = (e) => {
+    const locale = e.target.value;
+    router.push(router.pathname, router.asPath, { locale });
+  };
+
   return (
     <header className={navStyles.header}>
       <nav className={navStyles.navbar}>
         <Link href="/">
-        {/* <Image
-            src={logo}
-            alt="CEO image"
-            width="84"
-            height="84"
-          /> */}
-          <span className={navStyles.navLogo}>
-            IT<span className={navStyles.web}>Gym</span>{" "}
-          </span>
+          {/* <span className={navStyles.navLogo}>
+            GELD<span className={navStyles.web}>COIN</span> */}
+            <Image src="/logobgr.png" alt="Vercel Logo" width={84} height={84} />
+          {/* </span> */}
         </Link>
         {/* </li> */}
         <ul
@@ -44,60 +44,41 @@ const Nav = () => {
               : navStyles.navMenu + " " + navStyles.active
           }
         >
+  
+
           <li className={navStyles.navItem} onClick={openMenu}>
-            <Link href="/" className={navStyles.navItem}>
-            <span
+            <Link href="/">
+              <span
                 className={
                   currentRoute === "/"
                     ? navStyles.activeName
                     : navStyles.navItem
                 }
               >
-                Մեր մասին
+                Գլխավոր
+                {/* Coins */}
+                {/* {t.coins} */}
               </span>
             </Link>
           </li>
 
+         
+
           <li className={navStyles.navItem} onClick={openMenu}>
             <Link href="/courses">
-              <span
+            <span
                 className={
                   currentRoute === "/courses"
                     ? navStyles.activeName
                     : navStyles.navItem
                 }
               >
-                Դասընթացներ
+                Դասընթանցեր
+                
               </span>
             </Link>
           </li>
-{/* 
-          <div className={navStyles.links}>
-          <li className={navStyles.navItem} onClick={openMenu}>
-          <Link href="tel:+37493007110">
-          <span>
-          <PhoneOutlined /> 
-          
-          </span>
-        </Link>
-          </li>
-        
-        <li className={navStyles.navItem} onClick={openMenu}>
-          <Link href="mailto:edgarwyn@gmail.com"> 
-          <span>
-          <MailOutlined />
-          </span>
-          </Link>
-        </li>
 
-        <li className={navStyles.navItem} onClick={openMenu}>
-          <Link href="https://wa.me/79253807313"> 
-          <span>
-          <WhatsAppOutlined/>
-          </span>
-          </Link>
-        </li>
-        </div> */}
 
           <li className={navStyles.navItem} onClick={openMenu}>
             <Link href="/contact">
@@ -108,25 +89,41 @@ const Nav = () => {
                     : navStyles.navItem
                 }
               >
-                Contact
+                Կապ
+                {/* {t.contact} */}
+                {/* Contact */}
               </span>
             </Link>
           </li>
-
-
-     
-
-          
-        
-
-          
-
-         
-
-         
         </ul>
 
-       
+    
+        {/* <a href="https://twitter.com/edgarsblog">
+          <span>
+            <span className={navStyles.navButton}><TwitterOutlined /></span>
+          </span>
+        </a>
+
+
+        <a href="mailto:edgarwyn@gmail.com">
+          <span>
+            <span className={navStyles.navButton}><MailOutlined/></span>
+          </span>
+        </a>
+
+        <a href="tel:+37493007110">
+          <span>
+            <span className={navStyles.navButton}><PhoneOutlined/></span>
+          </span>
+        </a> */}
+        {/* <select 
+            onChange={changeLanguage}
+            defaultValue={locale}
+            className={navStyles.check}
+          >
+            <option className="text-black" value="en">EN</option>
+            <option className="text-black" value="hy">ՀՅ</option>
+          </select> */}
 
         <button
           className={
@@ -140,6 +137,8 @@ const Nav = () => {
           <span className={navStyles.bar}></span>
           <span className={navStyles.bar}></span>
         </button>
+
+        
       </nav>
     </header>
   );

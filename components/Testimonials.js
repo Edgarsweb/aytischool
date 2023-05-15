@@ -14,23 +14,17 @@ function Testimonials() {
         <div className={testimonials.blocks}>         
           <h2>Մասնագիտական կարծիքներ</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-            obcaecati pariatur odit doloremque veritatis cum, ipsum aliquid
-            harum libero, aperiam officia esse architecto quidem quod culpa!
-            Voluptatum asperiores laudantium distinctio.
+            Մեզ մոտ չկան տարիքային սահմանափակումներ։ Ունենք ուսանողներ 12-43 տարեկան։ Ֆրիլանս և IT ոլորտում կարևորը միայն ցանկությունն է։
           </p>
 
-          <button className={styles.button}>Learn more</button>
+          {/* <button className={styles.button}>Learn more</button> */}
         </div>
 
         <div className={testimonials.blocks}>
           <figure className={testimonials.snip1192}>
             <blockquote>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              nostrum error obcaecati, eaque et architecto dolores, nobis dolor
-              nulla, excepturi ipsum? Veritatis iure fugit atque saepe veniam
-              ipsa earum debitis. <p>Karen Aharonyan</p>{" "}
-              <span>Fullstack Developer</span>
+              Արդեն ունեի HTML, CSS որոշ գիտելիքներ։ Ցանկանում էի խորացնել փորձս։ Այս դպրոցում վերցրեցի DEEP FRONTEND դասընթացներ, որոնց ընթացքում իրականացրեցինք մի քանի լուրջ նախագծեր React.js ով, ինչի արդյունքում ստացա պրակտիկ գիտելիքներ։ Շնորհակալ եմ։<p>Karen Aharonyan</p>{" "}
+              <span>React.js Developer</span>
             </blockquote>
 
             <div className={testimonials.author}>
@@ -44,11 +38,8 @@ function Testimonials() {
           </figure>
           <figure className={testimonials.snip1192}>
             <blockquote>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              nostrum error obcaecati, eaque et architecto dolores, nobis dolor
-              nulla, excepturi ipsum? Veritatis iure fugit atque saepe veniam
-              ipsa earum debitis. <p>Natalie Kowalska </p>
-              <span>UI / UX designer</span>
+              В сентябре 2022 года переехала в Армению. Моя профессия копирайтер. Увидела рекламу Алгошколы в соц. сетях, взяла курс по фрилансу. От написания инвойса на английском до создания своего портфолио-сайта и его правильной раскрутки в интернете меня научили. За что крайне благодарна команде школы.<p>Наталья Бондаренко </p>
+              <span>Копирайтер</span>
             </blockquote>
             <div className={testimonials.author}>
               <Image

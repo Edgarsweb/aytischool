@@ -2,6 +2,7 @@ import React from "react";
 import tutorials from "@/styles/Tutorials.module.css";
 import Image from "next/image";
 import tut from "../src/pages/images/htmlcssjs.jpg";
+import Link from "next/link";
 import { Card } from "antd";
 import {
   EditOutlined,
@@ -14,7 +15,7 @@ import {
   TagsOutlined,
   DashOutlined,
   ArrowRightOutlined,
-  ReadOutlined
+  ReadOutlined,
 } from "@ant-design/icons";
 import Anime from "./Anime";
 
@@ -38,8 +39,8 @@ function Tutorials() {
         </div>
       </div>
 
-      <h2 className={tutorials.title} >
-      <ReadOutlined className={tutorials.bookIcon} /> Դասընթացներ
+      <h2 className={tutorials.title}>
+        <ReadOutlined className={tutorials.bookIcon} /> Դասընթացներ
       </h2>
       <div className={tutorials.container} id="#courses">
         <Card
@@ -55,11 +56,14 @@ function Tutorials() {
             />
           }
         >
-          <Meta title="Programming from scratch" description="HTML CSS JS" />
+          <Meta
+            title="Սկսնակ փաթեթ - FRONTEND"
+            description="Ծրագրավորում զրոյից: Ներառում է HTML, CSS, Bootstrap, դոմեյնի կառավարում, 2 նախագիծ"
+          />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>20 շաբաթ</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
+            <p>12 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>24 դաս</p>
           </div>
 
           <div className={tutorials.stars}>
@@ -73,17 +77,24 @@ function Tutorials() {
 
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
-              <span>50$</span>
+              <span>
+                60.000<sub>դր</sub>
+              </span>
               <p>Ամսեկան</p>
             </div>
 
             <div className={tutorials.priceCourse}>
-              <span>150$</span>
-              <p>Ընդհանուր</p>
+              <span>
+                180.000<sub>դր</sub>
+                <sup>Bestseller</sup>{" "}
+              </span>
+              <p>Ընդհանուր արժեք</p>
             </div>
           </div>
 
-          <button>Մանրամասներ <ArrowRightOutlined /></button>
+          <button>
+            Իմանալ ավելին <ArrowRightOutlined />
+          </button>
         </Card>
         <Card
           className={tutorials.card}
@@ -98,11 +109,14 @@ function Tutorials() {
             />
           }
         >
-          <Meta title="Programming from scratch" description="HTML CSS JS" />
+          <Meta
+            title="Պրեմիում փաթեթ - DEEP FRONTEND"
+            description="Ընդգրկում է 'Սկսնակ' փաթեթ + JavaScript, SEO, UI/UX, Hosting, Domain, React.js, 4 նախագիծ "
+          />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>20 շաբաթ</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
+            <p>24 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>48 դաս</p>
           </div>
 
           <div className={tutorials.stars}>
@@ -116,17 +130,23 @@ function Tutorials() {
 
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
-              <span>50$</span>
+              <span>
+                55.000<sub>դր</sub>
+              </span>
               <p>Ամսեկան</p>
             </div>
 
             <div className={tutorials.priceCourse}>
-              <span>150$</span>
+              <span>
+                330.000<sub>դր</sub>
+              </span>
               <p>Ընդհանուր</p>
             </div>
           </div>
 
-          <button>Մանրամասներ <ArrowRightOutlined /></button>
+          <button>
+            Իմանալ ավելին <ArrowRightOutlined />
+          </button>
         </Card>
         <Card
           className={tutorials.card}
@@ -141,11 +161,15 @@ function Tutorials() {
             />
           }
         >
-          <Meta title="Programming from scratch" description="HTML CSS JS" />
+          <Meta
+            title="Ֆրիլանս զրոյից մինչև պրոֆեսիոնալ"
+            description="Ներառում է SEO, SMM, UI/UX, պորտֆոլիո կայք, թվային մարքեթինգ, միջազգային ֆրիլանս պլատֆորմներից և վճարային համակարգերից օգտվելու հմտություններ, Google գովազդ "
+          />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>20 շաբաթ</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>40 դաս</p>
+            <p>8 շաբաթ</p>
+            <FolderOpenOutlined className={tutorials.icon} />
+            <p>16 դաս</p>
             {/* <EditOutlined />  */}
           </div>
 
@@ -160,17 +184,24 @@ function Tutorials() {
 
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
-              <span>50$</span>
+              <span>
+                120.000<sub>դր</sub>
+              </span>
               <p>Ամսեկան</p>
             </div>
 
             <div className={tutorials.priceCourse}>
-              <span>150$</span>
+              <span>
+                240.000<sub>դր</sub>
+              </span>
               <p>Ընդհանուր</p>
             </div>
           </div>
-
-          <button>Մանրամասներ <ArrowRightOutlined /></button>
+          <Link href="/basic">
+            <button>
+              Իմանալ ավելին <ArrowRightOutlined />
+            </button>
+          </Link>
         </Card>
       </div>
     </div>

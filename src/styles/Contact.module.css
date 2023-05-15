@@ -1,20 +1,27 @@
 .containerBody {
     margin: auto;
+    max-width: 1290px;
   }
   
   .title {
-    text-align: center;
-    margin: 100px 0;
-    max-width: 1290px;
+    font-size: 64px;
+    margin: 100px 0px;
+    color: #373737;
+    
+  }
+
+  .mail {
+    color: coral;
   }
   
   .textBlock p {
     text-align: left !important;
     color: #373737 !important;
+    line-height: 30px;
   }
   
   .icon {
-    color: #00dfd8;
+    color: coral;
   }
   .contactBlock {
     display: grid;
@@ -25,7 +32,7 @@
     justify-content: space-between;
     /* background-color: #2b2c2c !important; */
     padding: 60px;
-    margin: auto;
+    margin: 50px auto;
     border-radius: 20px;
     text-align: center;
     backdrop-filter: saturate(180%) blur(5px);
@@ -38,9 +45,10 @@
   .contactBlock h2,
   .contactBlock h4 {
     color: #373737;
+    
   }
   .contactBlock h3 {
-    color: #00dfd8;
+    color: coral;
   }
   
   .contactBlock a {
@@ -57,7 +65,7 @@
   }
   
   .contactBlock h4 {
-    color: #00dfd8;
+    color: coral;
   }
   
   .input {
@@ -118,11 +126,12 @@
   .form .button {
     padding: 12px 24px;
     font-size: 1rem;
-    background-color: #00dfd8;
-    color: #2f2207;
+    background-color: coral;
+    color: #373737;
     border-radius: 10px;
     font-weight: 700;
     transition: all 0.3s;
+    border: none;
   }
   
   .textBlock a {
@@ -145,6 +154,14 @@
   }
   
   @media (max-width: 992px) {
+
+    .containerBody {
+      padding: 0px 15px;
+    }
+     
+    .containerBody h1 {
+     font-size: 32px;
+    } 
     .contactBlock {
       grid-template-columns: auto;
       align-items: baseline;
@@ -156,11 +173,11 @@
   
     .contactBlock a {
       font-size: 16px;
-      text-align: center !important; 
+      text-align: left !important; 
     }
   
     .textBlock p {
-      text-align: center !important;
+      text-align: left !important;
     }
     
   }

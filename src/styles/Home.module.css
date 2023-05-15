@@ -19,8 +19,16 @@
   align-items: center;
 }
 
+
+
 .firstBlock h1 {
   color: #fff;
+  font-size: 64px;
+  margin: 20px 0px;
+}
+
+.main .whyUs h2 {
+  color: #373737;
   font-size: 64px;
   margin: 20px 0px;
 }
@@ -28,6 +36,7 @@
 .firstBlock p {
   color: #fff;
   margin: 20px 0px;
+  line-height: 30px;
 }
 
 .block {
@@ -45,9 +54,36 @@
   justify-content: space-between;
 }
 
-.chunks {
-  /* max-width: 250px; */
-  /* margin: 0px 50px; */
+.main .whyUs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1290px;
+  margin: auto;
+  align-items: center;
+}
+
+.basic {
+  min-height: 700px;
+  max-width: 1290px;
+  margin: auto;
+}
+
+.basic h1 {
+  font-size: 64px;
+  color: #373737;
+  margin: 50px 0px;
+ 
+}
+
+.basic button {
+  margin: 50px 0px;
+}
+
+.descriptions {
+ 
+
+ 
+  align-items: center;
 }
 
 .icon {
@@ -105,6 +141,8 @@
   color: #fb8500 !important;
 }
 
+
+
 .chunk p {
   color: #000 !important;
   margin: 0px !important;
@@ -112,7 +150,7 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .main .firstBlock {
+  .main .firstBlock, .main .whyUs {
     flex-direction: column;
     padding: 0px 15px;
   }
@@ -121,6 +159,23 @@
     font-size: 32px;
     margin: 10px 0px;
   }
+
+  .main .whyUs h2 {
+    font-size: 32px;
+    margin: 10px 0px;
+  }
+
+
+  .basic {
+    padding: 0px 15px;
+  }
+  
+  .basic h1 {
+    font-size: 32px;
+    
+   
+  }
+  
 
  
 }

@@ -94,6 +94,20 @@ object-fit: contain;
     margin: 10px 0px;
 }
 
+.prices sub {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prices sup {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: coral;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 30px;
+}
+
 .priceMonth {
     border-right: 2px solid rgb(236, 236, 236);
     padding-right: 10px;
