@@ -67,7 +67,7 @@ function Footer() {
 
           <div className={footerStyles.footerBlock}>
             <h6>Այլ</h6>
-            <a href="mailto:edgarwyn@gmail.com">
+            <a href="mailto:algoschoolco@gmail.com">
             <MailOutlined />  Էլ․փոստ
             </a>
             <a href="https://wa.me/+79253807313">

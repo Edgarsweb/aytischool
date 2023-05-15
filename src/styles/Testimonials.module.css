@@ -65,8 +65,8 @@
   display: block;
   position: relative;
   /* background-color: #fafafa; */
-  padding: 30px 50px 50px 50px;
-  font-size: 0.8em;
+  padding: 30px 20px 50px 20px;
+  font-size: 0.9em;
   font-weight: 500;
   margin: 0 0 -50px;
   line-height: 1.6em;
@@ -116,7 +116,7 @@
   text-transform: uppercase;
   text-align: right;
   color: #000;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
   /* background-color: #fafafa; */
 }
 
@@ -134,7 +134,7 @@
   display: block;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 992px) {
   .testimonials {
     flex-direction: column;
     padding: 15px;
@@ -146,5 +146,9 @@
 
   .blocks h2 {
     font-size: 32px;
+  }
+
+  .blocks p {
+    margin-bottom: 30px;
   }
 }

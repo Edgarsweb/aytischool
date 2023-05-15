@@ -58,7 +58,7 @@ function Tutorials() {
         >
           <Meta
             title="Սկսնակ փաթեթ - FRONTEND"
-            description="Ծրագրավորում զրոյից: Ներառում է HTML, CSS, Bootstrap, դոմեյնի կառավարում, 2 նախագիծ"
+            description="Ծրագրավորում զրոյից: HTML, CSS, Bootstrap, դոմեյնի կառավարում, 2 նախագիծ"
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
@@ -111,7 +111,7 @@ function Tutorials() {
         >
           <Meta
             title="Պրեմիում փաթեթ - DEEP FRONTEND"
-            description="Ընդգրկում է 'Սկսնակ' փաթեթ + JavaScript, SEO, UI/UX, Hosting, Domain, React.js, 4 նախագիծ "
+            description="'Սկսնակ' փաթեթ + JavaScript, SEO, UI/UX, Hosting, Domain, React.js, 4 նախագիծ "
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
@@ -163,7 +163,7 @@ function Tutorials() {
         >
           <Meta
             title="Ֆրիլանս զրոյից մինչև պրոֆեսիոնալ"
-            description="Ներառում է SEO, SMM, UI/UX, պորտֆոլիո կայք, թվային մարքեթինգ, միջազգային ֆրիլանս պլատֆորմներից և վճարային համակարգերից օգտվելու հմտություններ, Google գովազդ "
+            description="SEO, SMM, UI/UX, Portfolio, Digital Marketing, Freelance, Google Ads "
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />

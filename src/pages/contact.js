@@ -25,7 +25,7 @@ function contact() {
           name="keywords"
           content="web design, order website, software, Wordpress, Landing Page, SEO, marketing"
         />
-        <link rel="canonical" href="https://edxweb.com/contact" />
+        <link rel="canonical" href="https://algoschool.co/contact" />
         <meta
           name="description"
           content="EdxWeb is a web design & SEO Agency in Yerevan and New York. Specializing in website design, e-commerce, digital strategy & Search Engine Optimization"
@@ -62,7 +62,7 @@ function contact() {
           <a href="mailto:edx126@gmail.com">edx126@gmail.com</a>
         </div> */}
           <form
-            action="https://formsubmit.co/b071c9e73c69d54b3c9bd12f595dc586"
+            action="https://formsubmit.co/algoschoolco@gmail.com"
             method="POST"
             className={contactStyles.form}
           >
