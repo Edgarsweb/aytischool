@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   margin: 50px auto;
-  /* align-items: center; */
+
 }
 
 .blocks {
@@ -150,5 +150,11 @@
 
   .blocks p {
     margin-bottom: 30px;
+  }
+
+  .testimonials {
+  
+    margin: 0px auto;
+  
   }
 }
