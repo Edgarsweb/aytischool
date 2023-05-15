@@ -27,27 +27,7 @@ function Footer() {
             <h6>Algoschool</h6>
             <p className={footerStyles.footerDescription}>Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։</p>
 
-            <div className={footerStyles.socialMedia}>
-              <a href="https://instagram.com/algoschool.co?igshid=MzRlODBiNWFlZA==/">
-                <InstagramOutlined className={footerStyles.Insta} />
-              </a>
-
-              {/* <a href="https://www.linkedin.com/company/edxweb/">
-                <LinkedinOutlined className={footerStyles.Linkedin} />
-              </a> */}
-
-              <a href="https://www.facebook.com/profile.php?id=100057426047883&mibextid=LQQJ4d/">
-                <FacebookOutlined className={footerStyles.Facebook} />
-              </a>
-
-              {/* <a href="https://twitter.com/Edxweb1">
-                <TwitterOutlined className={footerStyles.Twitter} />
-              </a> */}
-
-              {/* <a href="#">
-                <YoutubeOutlined className={footerStyles.Youtube} />
-              </a> */}
-            </div>
+           
           </div>
 
           <div className={footerStyles.footerBlock}>
@@ -93,6 +73,27 @@ function Footer() {
             <a href="https://wa.me/+79253807313">
             <WhatsAppOutlined /> Whatsapp
             </a>
+            <div className={footerStyles.socialMedia}>
+              <a href="https://instagram.com/algoschool.co?igshid=MzRlODBiNWFlZA==/">
+                <InstagramOutlined className={footerStyles.Insta} />
+              </a>
+
+              {/* <a href="https://www.linkedin.com/company/edxweb/">
+                <LinkedinOutlined className={footerStyles.Linkedin} />
+              </a> */}
+
+              <a href="https://www.facebook.com/profile.php?id=100057426047883&mibextid=LQQJ4d/">
+                <FacebookOutlined className={footerStyles.Facebook} />
+              </a>
+
+              {/* <a href="https://twitter.com/Edxweb1">
+                <TwitterOutlined className={footerStyles.Twitter} />
+              </a> */}
+
+              {/* <a href="#">
+                <YoutubeOutlined className={footerStyles.Youtube} />
+              </a> */}
+            </div>
           </div>
         </div>
 

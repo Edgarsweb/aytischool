@@ -81,7 +81,7 @@ background: linear-gradient(to right, #8f94fb, #4e54c8);
 
 .navButton {
 font-size: 26px;
-color: #000;
+color: #373737;
   padding: 0.5rem 1rem;
   margin: 0;
   font-weight: 500;
@@ -134,11 +134,13 @@ color: #000;
 
   .navItem {
     margin: 1rem 0;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 900;
     color: #1e1e1e;
     width: 300px;
-    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
    
   }
 
