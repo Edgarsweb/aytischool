@@ -4,6 +4,7 @@ import navStyles from "@/styles/Nav.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import logo from "../src/pages/images/Algologo.png";
 // import en from '../locales/en';
 // import hy from '../locales/hy';
 import {
@@ -33,7 +34,7 @@ const Nav = () => {
         <Link href="/">
           {/* <span className={navStyles.navLogo}>
             GELD<span className={navStyles.web}>COIN</span> */}
-            <Image src="/logobgr.png" alt="Vercel Logo" width={84} height={84} />
+            <Image src={logo} alt="Algo Logo" width={124} height={124} />
           {/* </span> */}
         </Link>
         {/* </li> */}
