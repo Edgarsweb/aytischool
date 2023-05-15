@@ -148,6 +148,16 @@
   margin: 0px !important;
 }
 
+/* Dots  */
+.dottedArea {
+  background: linear-gradient(90deg, #fff 21px, transparent 1%) center,
+    linear-gradient(#fff 21px, transparent 1%) center, #252525;
+  background-size: 23px 23px;
+  padding: 100px;
+  max-width: 1290px;
+  margin:50px auto;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   .main .firstBlock, .main .whyUs {
