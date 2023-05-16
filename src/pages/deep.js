@@ -6,6 +6,7 @@ import heroImage from "../pages/images/stud.png";
 import { EditOutlined, StarOutlined, RightOutlined } from "@ant-design/icons";
 import { Descriptions } from 'antd';
 import { Button, Space } from 'antd';
+import Link from 'next/link';
 
 function deep() {
   return (
@@ -45,7 +46,7 @@ function deep() {
       </Descriptions.Item>
     </Descriptions>
    
-  </div> <button className={styles.button}>Primary Button</button>
+  </div> <Link href="/contact"><button className={styles.button}>Գրանցվել</button></Link>
   
     </div>
   )
