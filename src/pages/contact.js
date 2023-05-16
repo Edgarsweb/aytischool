@@ -34,34 +34,7 @@ function contact() {
       <div className={contactStyles.containerBody}>
         <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Կապ մեզ հետ</h1>
         <div className={contactStyles.contactBlock}>
-          <div className={contactStyles.textBlock}>
-           
-            <p>
-              Մեր մասնագետները կպատասխանեն Ձեզ հնարավորինս շուտ
-            </p>
-            
-            <p><CompassOutlined className={contactStyles.icon}/> Երևան, Հայաստան, 0018</p>
-            <p><FolderOpenOutlined className={contactStyles.icon}/>  ԱՁ <b>"Էդգար Հովհաննիսյան Խաչիկի"</b> </p>
-            <p><BankOutlined className={contactStyles.icon}/> Բանկ - <b>Ամերիաբանկ ՓԲԸ</b>  <br />
-Հաշվեհամար - <b>1570064780750100 </b> <br /> Նպատակ (պարտադիր է լրացման համար) - <b>Ուսման վարձ</b>  </p>
-            <p> <HomeOutlined className={contactStyles.icon}/> Իրավաբանական հասցե՝ <b>Տիգրան Մեծ 31-84</b> 
-            </p>
-            <a href="tel:+37493007110">
-              <PhoneOutlined className={contactStyles.icon} /> +374 93 007 110
-            </a>
-
-            {/* <a href="mailto:info@edxweb.com">
-              <MailOutlined className={contactStyles.icon} /> info@edxweb.com
-            </a> */}
-          </div>
-          {/* <div className={contactStyles.textBlock}>
-          <h3>New York</h3>
-          <p> 8744 Lawrence Dr.</p>
-          <p>Brooklyn, NY 11201</p>
-          <a href="tel:+1 716 221 86 86">+1 716 221 86 86</a> <br />
-          <a href="mailto:edx126@gmail.com">edx126@gmail.com</a>
-        </div> */}
-          <form
+        <form
             action="https://formsubmit.co/d72e77a0d8c0aa06adcc73b29c16148e"
             method="POST"
             className={contactStyles.form}
@@ -110,6 +83,34 @@ function contact() {
               </Link>
             </p> */}
           </form>
+          <div className={contactStyles.textBlock}>
+           
+            <p>
+              Մեր մասնագետները կպատասխանեն Ձեզ հնարավորինս շուտ
+            </p>
+            
+            <p><CompassOutlined className={contactStyles.icon}/> Երևան, Հայաստան, 0018</p>
+            <p><FolderOpenOutlined className={contactStyles.icon}/>  ԱՁ <b>"Էդգար Հովհաննիսյան Խաչիկի"</b> </p>
+            <p><BankOutlined className={contactStyles.icon}/> Բանկ - <b>Ամերիաբանկ ՓԲԸ</b>  <br />
+Հաշվեհամար - <b>1570064780750100 </b> <br /> Նպատակ (պարտադիր է լրացման համար) - <b>Ուսման վարձ</b>  </p>
+            <p> <HomeOutlined className={contactStyles.icon}/> Իրավաբանական հասցե՝ <b>Տիգրան Մեծ 31-84</b> 
+            </p>
+            <a href="tel:+37493007110">
+              <PhoneOutlined className={contactStyles.icon} /> +374 93 007 110
+            </a>
+
+            {/* <a href="mailto:info@edxweb.com">
+              <MailOutlined className={contactStyles.icon} /> info@edxweb.com
+            </a> */}
+          </div>
+          {/* <div className={contactStyles.textBlock}>
+          <h3>New York</h3>
+          <p> 8744 Lawrence Dr.</p>
+          <p>Brooklyn, NY 11201</p>
+          <a href="tel:+1 716 221 86 86">+1 716 221 86 86</a> <br />
+          <a href="mailto:edx126@gmail.com">edx126@gmail.com</a>
+        </div> */}
+         
         </div>
       </div>
     </div>

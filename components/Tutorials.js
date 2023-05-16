@@ -91,10 +91,11 @@ function Tutorials() {
               <p>Ընդհանուր արժեք</p>
             </div>
           </div>
-
-          <button>
+<Link href="/basic"><button>
             Իմանալ ավելին <ArrowRightOutlined />
           </button>
+</Link>
+          
         </Card>
         <Card
           className={tutorials.card}
@@ -143,10 +144,11 @@ function Tutorials() {
               <p>Ընդհանուր</p>
             </div>
           </div>
-
-          <button>
+<Link href="/deep"><button>
             Իմանալ ավելին <ArrowRightOutlined />
           </button>
+</Link>
+          
         </Card>
         <Card
           className={tutorials.card}
@@ -197,7 +199,7 @@ function Tutorials() {
               <p>Ընդհանուր</p>
             </div>
           </div>
-          <Link href="/basic">
+          <Link href="">
             <button>
               Իմանալ ավելին <ArrowRightOutlined />
             </button>

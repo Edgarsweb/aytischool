@@ -88,11 +88,9 @@
   margin: 50px 0px;
 }
 
-.descriptions {
+.descriptions, .descriptions label{
  
-
- 
-  align-items: center;
+word-break: break-word;
 }
 
 .icon {
