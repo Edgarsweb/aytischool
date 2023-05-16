@@ -62,7 +62,7 @@ function contact() {
           <a href="mailto:edx126@gmail.com">edx126@gmail.com</a>
         </div> */}
           <form
-            action="https://formsubmit.co/algoschoolco@gmail.com"
+            action="https://formsubmit.co/d72e77a0d8c0aa06adcc73b29c16148e"
             method="POST"
             className={contactStyles.form}
           >
