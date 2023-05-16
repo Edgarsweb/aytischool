@@ -34,21 +34,14 @@ function basic() {
       <Descriptions.Item label="Շաբաթական">2 դասաժամ</Descriptions.Item>
       <Descriptions.Item label="Տարիքային սահմանափակում">12 տարեկանից բարձր</Descriptions.Item>
       <Descriptions.Item label="Մեկ խմբում">Մինչև 5 հոգի</Descriptions.Item>
-      <Descriptions.Item label="2 նախագիծ">1.Պորտֆոլիո վեբ կայք, 2.Կայք-այցեքարտ</Descriptions.Item>
-      <Descriptions.Item label="Discount">$20.00</Descriptions.Item>
-      <Descriptions.Item label="Official">$60.00</Descriptions.Item>
-      <Descriptions.Item label="Config Info">
-        Data disk type: MongoDB
-        <br />
-        Database version: 3.4
-        <br />
-        Package: dds.mongo.mid
-        <br />
-        Storage space: 10 GB
-        <br />
-        Replication factor: 3
-        <br />
-        Region: East China 1
+      <Descriptions.Item label="Արդյունք՝ 2 նախագիծ">1.Պորտֆոլիո վեբ կայք, 2.Կայք-այցեքարտ</Descriptions.Item>
+      <Descriptions.Item label="Սերտիֆիկատ">Քննության արդյունքներով</Descriptions.Item>
+      <Descriptions.Item label="1 ամիս տեխ․ աջակցություն"> դասընթացներն ավարտելուց հետո</Descriptions.Item>
+      <Descriptions.Item label="Բոնուս 1">
+       Ծրագրավորման բառարան հայերեն անգլերեն լեզուներով։
+      </Descriptions.Item>
+      <Descriptions.Item label="Բոնուս 2">
+       Վեբ կայքերի օպտիմալացում (SEO)
       </Descriptions.Item>
     </Descriptions>
    
