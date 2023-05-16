@@ -13,7 +13,7 @@ function basic() {
         <h1>Սկսնակ փաթեթ - FRONTEND</h1>
       <div className={styles.descriptions}>
     <Descriptions
-      title="Սկսնակ փաթեթ - FRONTEND"
+      title="Դուք կսովորեք ծրագրավորում զրոյից մինչև վեբ կայք ստեղծելու մակարդակ"
       bordered
       column={{
         xxl: 4,
@@ -24,10 +24,17 @@ function basic() {
         xs: 1,
       }}
     >
-      <Descriptions.Item label="Product">Cloud Database</Descriptions.Item>
-      <Descriptions.Item label="Billing">Prepaid</Descriptions.Item>
-      <Descriptions.Item label="time">18:00:00</Descriptions.Item>
-      <Descriptions.Item label="Amount">$80.00</Descriptions.Item>
+      <Descriptions.Item label="Ժամանակահատված">12 շաբաթ</Descriptions.Item>
+      <Descriptions.Item label="Դասերի քանակ">24 դասաժամ</Descriptions.Item>
+      <Descriptions.Item label="1 դասաժամ">1 ժամ 45 րոպե</Descriptions.Item>
+      <Descriptions.Item label="Ամսավճար">60.000 դր</Descriptions.Item>
+      <Descriptions.Item label="Ընդհանուր դասընթացի արժեք">180.000դր</Descriptions.Item>
+      <Descriptions.Item label="Ծրագրեր">HTML, CSS, Bootstrap, Domain and Hosting Management</Descriptions.Item>
+      <Descriptions.Item label="1-ին դաս / ծանոթություն">Անվճար</Descriptions.Item>
+      <Descriptions.Item label="Շաբաթական">2 դասաժամ</Descriptions.Item>
+      <Descriptions.Item label="Տարիքային սահմանափակում">12 տարեկանից բարձր</Descriptions.Item>
+      <Descriptions.Item label="Մեկ խմբում">Մինչև 5 հոգի</Descriptions.Item>
+      <Descriptions.Item label="2 նախագիծ">1.Պորտֆոլիո վեբ կայք, 2.Կայք-այցեքարտ</Descriptions.Item>
       <Descriptions.Item label="Discount">$20.00</Descriptions.Item>
       <Descriptions.Item label="Official">$60.00</Descriptions.Item>
       <Descriptions.Item label="Config Info">
