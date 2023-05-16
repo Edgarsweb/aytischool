@@ -199,7 +199,7 @@ function Tutorials() {
               <p>Ընդհանուր</p>
             </div>
           </div>
-          <Link href="">
+          <Link href="/freelance">
             <button>
               Իմանալ ավելին <ArrowRightOutlined />
             </button>

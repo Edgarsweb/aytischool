@@ -65,7 +65,7 @@ const Nav = () => {
 
          
 
-          <li className={navStyles.navItem} onClick={openMenu}>
+          {/* <li className={navStyles.navItem} onClick={openMenu}>
             <Link href="/courses">
             <span
                 className={
@@ -78,7 +78,7 @@ const Nav = () => {
                 
               </span>
             </Link>
-          </li>
+          </li> */}
 
 
           <li className={navStyles.navItem} onClick={openMenu}>

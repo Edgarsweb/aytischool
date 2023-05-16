@@ -23,7 +23,7 @@ function basic() {
         sm: 2,
         xs: 1,
       }}
-    >
+      className={styles.descriptions}>
       <Descriptions.Item label="Ժամանակահատված">12 շաբաթ</Descriptions.Item>
       <Descriptions.Item label="Դասերի քանակ">24 դասաժամ</Descriptions.Item>
       <Descriptions.Item label="1 դասաժամ">1 ժամ 45 րոպե</Descriptions.Item>

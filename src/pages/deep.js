@@ -7,7 +7,7 @@ import { EditOutlined, StarOutlined, RightOutlined } from "@ant-design/icons";
 import { Descriptions } from 'antd';
 import { Button, Space } from 'antd';
 
-function basic() {
+function deep() {
   return (
     <div className={styles.basic}>
         <h1>Պրեմիում փաթեթ - DEEP FRONTEND</h1>
@@ -51,4 +51,4 @@ function basic() {
   )
 }
 
-export default basic
+export default deep
