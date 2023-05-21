@@ -94,11 +94,13 @@
 
 }
 
-.descriptions  {
-  /* word-break: break-word; */
+.descriptions td {
+
   word-break: keep-all !important;
 
 }
+
+
 
 .icon {
   margin-right: 10px;
