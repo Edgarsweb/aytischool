@@ -88,9 +88,16 @@
   margin: 50px 0px;
 }
 
-.descriptions, .descriptions label{
- 
-word-break: break-word;
+.descriptions label {
+  /* word-break: break-word; */
+  word-break: keep-all !important;
+
+}
+
+.descriptions  {
+  /* word-break: break-word; */
+  word-break: keep-all !important;
+
 }
 
 .icon {
@@ -164,6 +171,8 @@ word-break: break-word;
   max-width: 1290px;
   margin: auto;
 }
+
+
 
 /* Mobile */
 @media (max-width: 700px) {
