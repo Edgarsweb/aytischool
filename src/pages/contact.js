@@ -20,7 +20,7 @@ function contact() {
   return (
     <div>
       <Head>
-        <title>Contact - Get in touch | EdxWeb: High Quality Digital</title>
+        <title>Contact - Get in touch | Algoschool: High Quality Digital</title>
         <meta
           name="keywords"
           content="web design, order website, software, Wordpress, Landing Page, SEO, marketing"
@@ -28,11 +28,11 @@ function contact() {
         <link rel="canonical" href="https://algoschool.co/contact" />
         <meta
           name="description"
-          content="EdxWeb is a web design & SEO Agency in Yerevan and New York. Specializing in website design, e-commerce, digital strategy & Search Engine Optimization"
+          content="Algoschool is a web design & SEO Agency in Yerevan and New York. Specializing in website design, e-commerce, digital strategy & Search Engine Optimization"
         />
       </Head>
       <div className={contactStyles.containerBody}>
-        <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Կապ մեզ հետ</h1>
+        <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Գրանցվիր այսօր</h1>
         <div className={contactStyles.contactBlock}>
         <form
             action="https://formsubmit.co/d72e77a0d8c0aa06adcc73b29c16148e"
@@ -99,8 +99,8 @@ function contact() {
               <PhoneOutlined className={contactStyles.icon} /> +374 93 007 110
             </a>
 
-            {/* <a href="mailto:info@edxweb.com">
-              <MailOutlined className={contactStyles.icon} /> info@edxweb.com
+            {/* <a href="mailto:info@Algoschool.com">
+              <MailOutlined className={contactStyles.icon} /> info@Algoschool.com
             </a> */}
           </div>
           {/* <div className={contactStyles.textBlock}>
