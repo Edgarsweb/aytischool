@@ -12,9 +12,10 @@ function freelance() {
   return (
     <div className={styles.basic}>
         <h1>Ֆրիլանս` զրոյից մինչև պրոֆեսիոնալ</h1>
+        <p>Դուք կսովորեք կազմել ճիշտ պորտֆոլիո, ֆրիլանս և մարքեթինգ</p> <br />
       <div className={styles.descriptions}>
     <Descriptions 
-      title="Դուք կսովորեք կազմել ճիշտ պորտֆոլիո, ֆրիլանս և մարքեթինգ"
+      title=""
       bordered
       column={{
         xxl: 4,

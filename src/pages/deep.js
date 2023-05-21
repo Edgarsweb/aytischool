@@ -12,9 +12,10 @@ function deep() {
   return (
     <div className={styles.basic}>
         <h1>Պրեմիում փաթեթ - DEEP FRONTEND</h1>
+        <p>Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայքեր և հավելվածներ ստեղծելու մակարդակ</p> <br />
       <div className={styles.descriptions}>
     <Descriptions 
-      title="Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայքեր և հավելվածներ ստեղծելու մակարդակ"
+      title=""
       bordered
       column={{
         xxl: 4,

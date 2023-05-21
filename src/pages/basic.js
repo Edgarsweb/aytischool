@@ -12,9 +12,10 @@ function basic() {
   return (
     <div className={styles.basic}>
         <h1>Սկսնակ փաթեթ - FRONTEND</h1>
+        <p>Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայք ստեղծելու մակարդակ</p> <br />
       <div className={styles.descriptions}>
     <Descriptions
-      title="Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայք ստեղծելու մակարդակ"
+      title=""
       bordered
       column={{
         xxl: 4,
