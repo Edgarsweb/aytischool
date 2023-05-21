@@ -9,7 +9,7 @@ import {
   TwitterOutlined,
   YoutubeOutlined,
   MailOutlined,
-  WhatsAppOutlined
+  WhatsAppOutlined,
 } from "@ant-design/icons";
 
 function Footer() {
@@ -25,9 +25,11 @@ function Footer() {
         <div className={footerStyles.row}>
           <div className={footerStyles.footerBlock}>
             <h6>Algoschool</h6>
-            <p className={footerStyles.footerDescription}>Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։</p>
-
-           
+            <p className={footerStyles.footerDescription}>
+              Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել
+              այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում
+              աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
+            </p>
           </div>
 
           <div className={footerStyles.footerBlock}>
@@ -37,15 +39,9 @@ function Footer() {
                 <Link href="/">Գլխավոր</Link>
               </li>
 
-              {/* <li>
-                <Link href="/services">Services</Link>
-              </li> */}
-
-              
-            
-
-             
-
+              <li>
+                <Link href="/courses"> Դասընթանցեր</Link>
+              </li>
 
               <li>
                 <Link href="/contact">Կապ</Link>
@@ -68,10 +64,10 @@ function Footer() {
           <div className={footerStyles.footerBlock}>
             <h6>Այլ</h6>
             <a href="mailto:algoschoolco@gmail.com">
-            <MailOutlined />  Էլ․փոստ
+              <MailOutlined /> Էլ․փոստ
             </a>
             <a href="https://wa.me/+79253807313">
-            <WhatsAppOutlined /> Whatsapp
+              <WhatsAppOutlined /> Whatsapp
             </a>
             <div className={footerStyles.socialMedia}>
               <a href="https://instagram.com/algoschool.co?igshid=MzRlODBiNWFlZA==/">

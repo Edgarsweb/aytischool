@@ -30,8 +30,8 @@ export default function Home() {
               <p>
                 Ձեռք բերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
               </p>
-              <Link href="/contact"><button className={styles.button}>
-                <EditOutlined className={styles.icon} /> Գրանցվիր հիմա
+              <Link href="/courses"><button className={styles.button}>
+                <EditOutlined className={styles.icon} />  Դասընթանցեր
               </button>
               </Link>
               
