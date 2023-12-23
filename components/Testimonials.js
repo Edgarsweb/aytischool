@@ -12,10 +12,9 @@ function Testimonials() {
         
 
         <div className={testimonials.blocks}>         
-          <h2>Մասնագիտական կարծիքներ</h2>
+          <h2>Testimonials</h2>
           <p>
-            Մեզ մոտ ուսանում են 12-43 տարեկան աշակերտներ։ Ֆրիլանս և IT ոլորտում կարևորը միայն ցանկությունն է։
-          </p>
+          Students aged 12-43 study with us. In the field of freelance and IT, the only thing that matters is the desire.          </p>
 
           {/* <button className={styles.button}>Learn more</button> */}
         </div>
@@ -23,7 +22,8 @@ function Testimonials() {
         <div className={testimonials.blocks}>
           <figure className={testimonials.snip1192}>
             <blockquote>
-              Արդեն ունեի HTML, CSS որոշ գիտելիքներ։ Ցանկանում էի խորացնել փորձս։ Այս դպրոցում վերցրեցի DEEP FRONTEND դասընթացներ, որոնց ընթացքում իրականացրեցինք մի քանի լուրջ նախագծեր React.js ով, ինչի արդյունքում ստացա պրակտիկ գիտելիքներ։ Շնորհակալ եմ։<p>Karen Aharonyan</p>{" "}
+             
+I already had some HTML, CSS knowledge. I wanted to deepen my experience. In this school, I took DEEP FRONTEND courses, during which we implemented several serious projects with React.js, as a result of which I got practical knowledge. Thank you.<p>William H.</p>{" "}
               <span>React.js Developer</span>
             </blockquote>
 

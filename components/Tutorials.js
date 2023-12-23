@@ -57,13 +57,13 @@ function Tutorials() {
           }
         >
           <Meta
-            title="Սկսնակ փաթեթ - FRONTEND"
-            description="Ծրագրավորում զրոյից: HTML, CSS, Bootstrap, դոմեյնի կառավարում, 2 նախագիծ"
+            title="Beginner package - FRONTEND"
+            description="Programming from scratch: HTML, CSS, Bootstrap, Domain management, 2 Projects"
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>12 շաբաթ</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>24 դաս</p>
+            <p>12 weeks</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>24 course hours</p>
           </div>
 
           <div className={tutorials.stars}>
@@ -78,21 +78,21 @@ function Tutorials() {
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
               <span>
-                60.000<sub>դր</sub>
+                150<sub>$</sub>
               </span>
-              <p>Ամսեկան</p>
+              <p>Monthly</p>
             </div>
 
             <div className={tutorials.priceCourse}>
               <span>
-                180.000<sub>դր</sub>
+                400<sub>$</sub>
                 <sup>Bestseller</sup>{" "}
               </span>
-              <p>Ընդհանուր արժեք</p>
+              <p>Total price</p>
             </div>
           </div>
-<Link href="/basic"><button>
-            Իմանալ ավելին <ArrowRightOutlined />
+<Link href="/courses"><button>
+            Learn more <ArrowRightOutlined />
           </button>
 </Link>
           
@@ -111,13 +111,13 @@ function Tutorials() {
           }
         >
           <Meta
-            title="Պրեմիում փաթեթ - DEEP FRONTEND"
-            description="'Սկսնակ' փաթեթ + JavaScript, SEO, UI/UX, Hosting, Domain, React.js, 4 նախագիծ "
+            title="Premium package - DEEP FRONTEND"
+            description="'Beginner' package + JavaScript, SEO, UI/UX, Hosting, Domain, React.js, 4 Projects "
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>24 շաբաթ</p>
-            <FolderOpenOutlined className={tutorials.icon} /> <p>48 դաս</p>
+            <p>24 weeks</p>
+            <FolderOpenOutlined className={tutorials.icon} /> <p>48 course hours</p>
           </div>
 
           <div className={tutorials.stars}>
@@ -132,20 +132,20 @@ function Tutorials() {
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
               <span>
-                55.000<sub>դր</sub>
+                150<sub>$</sub>
               </span>
-              <p>Ամսեկան</p>
+              <p>Monthly</p>
             </div>
 
             <div className={tutorials.priceCourse}>
               <span>
-                330.000<sub>դր</sub>
+                800<sub>$</sub>
               </span>
-              <p>Ընդհանուր</p>
+              <p>Total price</p>
             </div>
           </div>
-<Link href="/deep"><button>
-            Իմանալ ավելին <ArrowRightOutlined />
+<Link href="/courses"><button>
+            Learn more <ArrowRightOutlined />
           </button>
 </Link>
           
@@ -164,14 +164,14 @@ function Tutorials() {
           }
         >
           <Meta
-            title="Ֆրիլանս զրոյից մինչև պրոֆեսիոնալ"
+            title="Freelance from scratch to professional"
             description="SEO, SMM, UI/UX, Portfolio, Digital Marketing, Freelance, Google Ads "
           />
           <div className={tutorials.details}>
             <TagsOutlined className={tutorials.icon} />
-            <p>8 շաբաթ</p>
+            <p>8 weeks</p>
             <FolderOpenOutlined className={tutorials.icon} />
-            <p>16 դաս</p>
+            <p>16 course hours</p>
             {/* <EditOutlined />  */}
           </div>
 
@@ -187,21 +187,21 @@ function Tutorials() {
           <div className={tutorials.prices}>
             <div className={tutorials.priceMonth}>
               <span>
-                120.000<sub>դր</sub>
+                300<sub>$</sub>
               </span>
-              <p>Ամսեկան</p>
+              <p>Monthly</p>
             </div>
 
             <div className={tutorials.priceCourse}>
               <span>
-                240.000<sub>դր</sub>
+               600<sub>$</sub>
               </span>
-              <p>Ընդհանուր</p>
+              <p>Total price</p>
             </div>
           </div>
-          <Link href="/freelance">
+          <Link href="/courses">
             <button>
-              Իմանալ ավելին <ArrowRightOutlined />
+              Learn more <ArrowRightOutlined />
             </button>
           </Link>
         </Card>

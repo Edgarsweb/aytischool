@@ -32,7 +32,7 @@ function contact() {
         />
       </Head>
       <div className={contactStyles.containerBody}>
-        <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Գրանցվիր այսօր</h1>
+        <h1 className={contactStyles.title}><MailOutlined className={contactStyles.mail}/> Enroll today</h1>
         <div className={contactStyles.contactBlock}>
         <form
             action="https://formsubmit.co/d72e77a0d8c0aa06adcc73b29c16148e"
@@ -44,36 +44,36 @@ function contact() {
               className={contactStyles.input}
               type="text"
               name="name"
-              placeholder="Անուն Ազգանուն*"
+              placeholder="Full name *"
               required
             />
             <input
               className={contactStyles.input}
               type="tel"
               name="name"
-              placeholder="Հեռախոսահամար *"
+              placeholder="Phone *"
               required
             />
             <input
               className={contactStyles.input}
               type="email"
               name="email"
-              placeholder="Էլ․ փոստի հասցե"
+              placeholder="Email"
             />
-            <input
+            {/* <input
               className={contactStyles.input}
               type="text"
               name="text"
               placeholder="Նշել փաթեթը*"
               required
-            />
+            /> */}
             <textarea
               className={contactStyles.textarea}
               name=""
-              placeholder="Նամակ  "
+              placeholder="Message  "
             ></textarea>
             <button className={contactStyles.button} type="submit">
-              Ուղարկել <SendOutlined />
+              Send <SendOutlined />
             </button>{" "}
             <br />
             {/* <p className={contactStyles.privacyLink}>
@@ -83,10 +83,10 @@ function contact() {
               </Link>
             </p> */}
           </form>
-          <div className={contactStyles.textBlock}>
+          {/* <div className={contactStyles.textBlock}>
            
             <p>
-              Մեր մասնագետները կպատասխանեն Ձեզ հնարավորինս շուտ
+              Our specialists will reply shortly.
             </p>
             
             <p><CompassOutlined className={contactStyles.icon}/> Երևան, Հայաստան, 0018</p>
@@ -99,10 +99,10 @@ function contact() {
               <PhoneOutlined className={contactStyles.icon} /> +374 93 007 110
             </a>
 
-            {/* <a href="mailto:info@Algoschool.com">
+            <a href="mailto:info@Algoschool.com">
               <MailOutlined className={contactStyles.icon} /> info@Algoschool.com
-            </a> */}
-          </div>
+            </a>
+          </div> */}
           {/* <div className={contactStyles.textBlock}>
           <h3>New York</h3>
           <p> 8744 Lawrence Dr.</p>

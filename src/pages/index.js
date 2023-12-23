@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Սովորիր ծրագրավորում, մարքեթինգ և ֆրիլանս</title>
+        <title>Learn programming, marketing and freelance</title>
         <meta name="description" content=" Ձեռք բերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -26,12 +26,11 @@ export default function Home() {
         <section>
           <div className={styles.firstBlock}>
             <div className={styles.block}>
-              <h1>Սովորիր ծրագրավորում, մարքեթինգ և ֆրիլանս</h1>
+              <h1>Learn programming, marketing and freelance</h1>
               <p>
-                Ձեռք բերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
-              </p>
+              Gain practical knowledge to find work on international platforms and have an impressive portfolio.              </p>
               <Link href="/courses"><button className={styles.button}>
-                <EditOutlined className={styles.icon} />  Դասընթանցեր
+                <EditOutlined className={styles.icon} />  Courses
               </button>
               </Link>
               
@@ -44,14 +43,14 @@ export default function Home() {
                     <span>
                       4.000 <RightOutlined />
                     </span>
-                    <p>Հետևորդներ</p>
+                    <p>Followers</p>
                   </div>
 
                   <div className={styles.chunk}>
                     <span>
                       4.8 <StarOutlined className={styles.star} />
                     </span>
-                    <p>Վարկանիշ</p>
+                    <p>Reviews</p>
                   </div>
                 </div>
 
@@ -83,12 +82,12 @@ export default function Home() {
           </div>
           <div>
             <div className={styles.block}>
-              <h2>Դասընթացներին գրանցվելու ընթացակարգ</h2>
+              <h2>
+Course enrollment procedure</h2>
               <p>
-                Ընթացակարգ՝ ընտրում եք դասընթացը, եթե կան հարցեր կապնվում եք մեր մասնագետի հետ, իսկ եթե ամեն-ինչ պարզ է կարող էք կոնտակ էջում լրացնել ձեր տվյալները և դասընթացի փաթեթը, որի համար ուզում եք գրանցվել։ Այնուհետև մեր մասնագետները կկապնվեն Ձեզ հետ և կքննարկեն հետագա քայլերը։
-              </p>
+              Procedure: you choose the course, if you have any questions, contact our specialist, and if everything is clear, you can fill in your data and the course package for which you want to register on the contact page. Then our specialists will contact you and discuss further steps.              </p>
               <Link href="/contact">  <button className={styles.button}>
-                <MailOutlined className={styles.icon} /> Կապ մեզ հետ
+                <MailOutlined className={styles.icon} /> Get in touch
               </button>
               </Link>
             

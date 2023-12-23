@@ -56,7 +56,7 @@ const Nav = () => {
                     : navStyles.navItem
                 }
               >
-                Գլխավոր
+                Home
                 {/* Coins */}
                 {/* {t.coins} */}
               </span>
@@ -74,7 +74,7 @@ const Nav = () => {
                     : navStyles.navItem
                 }
               >
-                Դասընթանցեր
+                Courses
                 
               </span>
             </Link>
@@ -90,7 +90,7 @@ const Nav = () => {
                     : navStyles.navItem
                 }
               >
-                Կապ
+                Contact
                 {/* {t.contact} */}
                 {/* Contact */}
               </span>

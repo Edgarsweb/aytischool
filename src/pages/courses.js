@@ -13,8 +13,8 @@ function courses() {
     <div>
       <Link href="/contact"><button className={styles.buttonReg}><FormOutlined /></button></Link>
       <div className={styles.basic}>
-        <h1>Սկսնակ փաթեթ - FRONTEND</h1>
-        <p>Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայք ստեղծելու մակարդակ</p> <br />
+        <h1>Beginner Package - FRONTEND</h1>
+        <p>You will learn programming from scratch to the level of building a website</p> <br />
       <div className={styles.descriptions}>
     <Descriptions
       title=""
@@ -28,24 +28,23 @@ function courses() {
         xs: 1,
       }}
       className={styles.descriptions}>
-      <Descriptions.Item label="Ժամանակահատված">12 շաբաթ</Descriptions.Item>
-      <Descriptions.Item label="Դասերի քանակ">24 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="1 դասաժամ">1 ժամ 45 րոպե</Descriptions.Item>
-      <Descriptions.Item label="Ամսավճար">60.000 դր</Descriptions.Item>
-      <Descriptions.Item label="Ընդհանուր դասընթացի արժեք">180.000դր</Descriptions.Item>
-      <Descriptions.Item label="Ծրագրեր">HTML, CSS, Bootstrap, Domain and Hosting Management</Descriptions.Item>
-      <Descriptions.Item label="1-ին դաս / ծանոթություն">Անվճար</Descriptions.Item>
-      <Descriptions.Item label="Շաբաթական">2 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="Տարիքային սահմանափակում">12 տարեկանից բարձր</Descriptions.Item>
-      <Descriptions.Item label="Մեկ խմբում">Մինչև 5 հոգի</Descriptions.Item>
-      <Descriptions.Item label="Արդյունք՝ 2 նախագիծ">1.Պորտֆոլիո վեբ կայք, 2.Կայք-այցեքարտ</Descriptions.Item>
-      <Descriptions.Item label="Սերտիֆիկատ">Քննության արդյունքներով</Descriptions.Item>
-      <Descriptions.Item label="1 ամիս տեխ․ աջակցություն"> դասընթացներն ավարտելուց հետո</Descriptions.Item>
-      <Descriptions.Item label="Բոնուս 1">
-       Ծրագրավորման բառարան հայերեն անգլերեն լեզուներով։
+      <Descriptions.Item label="Period">12 weeks</Descriptions.Item>
+      <Descriptions.Item label="Courses">24 course hours</Descriptions.Item>
+      <Descriptions.Item label="1 course hour">1 hour 45 min</Descriptions.Item>
+      <Descriptions.Item label="Monthly">150$</Descriptions.Item>
+      <Descriptions.Item label="Total price">400$</Descriptions.Item>
+      <Descriptions.Item label="Programs">HTML, CSS, Bootstrap, Domain and Hosting Management</Descriptions.Item>
+      <Descriptions.Item label="1st course">For free</Descriptions.Item>
+      <Descriptions.Item label="Weekly">2 course hours</Descriptions.Item>
+      <Descriptions.Item label="In 1 group">Up to 5 students</Descriptions.Item>
+      <Descriptions.Item label="Result - 2 projects">1.Portfolio Website, 2.Landing Page</Descriptions.Item>
+      <Descriptions.Item label="Certificate">By the exam results</Descriptions.Item>
+      <Descriptions.Item label="1 ամիս տեխ․ աջակցություն"> After completing the courses</Descriptions.Item>
+      <Descriptions.Item label="Bonus 1">
+      Programming dictionary in English language.
       </Descriptions.Item>
-      <Descriptions.Item label="Բոնուս 2">
-       Վեբ կայքերի օպտիմալացում (SEO)
+      <Descriptions.Item label="Bonus 2">
+      Search Engine Optimization course (SEO)
       </Descriptions.Item>
     </Descriptions>
    
@@ -54,8 +53,8 @@ function courses() {
     </div>
 
     <div className={styles.basic}>
-        <h1>Պրեմիում փաթեթ - DEEP FRONTEND</h1>
-        <p>Դուք կսովորեք ծրագրավորում՝ զրոյից մինչև վեբ կայքեր և հավելվածներ ստեղծելու մակարդակ</p> <br />
+        <h1>Premium Package - DEEP FRONTEND</h1>
+        <p>You will learn programming from scratch to the level of creating websites and applications</p> <br />
       <div className={styles.descriptions}>
     <Descriptions 
       title=""
@@ -69,24 +68,23 @@ function courses() {
         xs: 1,
       }}
     className={styles.descriptions}>
-      <Descriptions.Item label="Ժամանակահատված">24 շաբաթ</Descriptions.Item>
-      <Descriptions.Item label="Դասերի քանակ">48 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="1 դասաժամ">1 ժամ 45 րոպե</Descriptions.Item>
-      <Descriptions.Item label="Ամսավճար">55.000 դր</Descriptions.Item>
-      <Descriptions.Item label="Ընդհանուր դասընթացի արժեք">330.000դր</Descriptions.Item>
-      <Descriptions.Item label="Ծրագրեր">HTML, CSS, Bootstrap, JavaScript, React.js, SEO, UI/UX, Domain and Hosting Management</Descriptions.Item>
-      <Descriptions.Item label="1-ին դաս / ծանոթություն">Անվճար</Descriptions.Item>
-      <Descriptions.Item label="Շաբաթական">2 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="Տարիքային սահմանափակում">18 տարեկանից բարձր</Descriptions.Item>
-      <Descriptions.Item label="Մեկ խմբում">Մինչև 5 հոգի</Descriptions.Item>
-      <Descriptions.Item label="Արդյունք՝ 2 նախագիծ">1.Պորտֆոլիո վեբ կայք, 2.Կայք-այցեքարտ, 3.Բազմալեզու վեբ-կայք, 4.Վեբ հավելված</Descriptions.Item>
-      <Descriptions.Item label="Սերտիֆիկատ">Քննության արդյունքներով</Descriptions.Item>
-      <Descriptions.Item label="2 ամիս տեխ․ աջակցություն"> դասընթացներն ավարտելուց հետո</Descriptions.Item>
-      <Descriptions.Item label="Բոնուս 1">
-       Ծրագրավորման բառարան հայերեն անգլերեն լեզուներով։
+      <Descriptions.Item label="Period">24 weeks</Descriptions.Item>
+      <Descriptions.Item label="Courses">48 course hour</Descriptions.Item>
+      <Descriptions.Item label="1 course hour">1 hour 45 min</Descriptions.Item>
+      <Descriptions.Item label="Monthly">150$</Descriptions.Item>
+      <Descriptions.Item label="Total price">800$</Descriptions.Item>
+      <Descriptions.Item label="Programs">HTML, CSS, Bootstrap, JavaScript, React.js, SEO, UI/UX, Domain and Hosting Management</Descriptions.Item>
+      <Descriptions.Item label="1st course">For free</Descriptions.Item>
+      <Descriptions.Item label="Weeks">2 course hour</Descriptions.Item>
+      <Descriptions.Item label="A group">Up to 5 students</Descriptions.Item>
+      <Descriptions.Item label="Result - 2 projects">1.Portfolio website, 2.Landing page, 3.Multilanguage website, 4.Web application</Descriptions.Item>
+      <Descriptions.Item label="Certificate">By the exam results</Descriptions.Item>
+      <Descriptions.Item label="2 months support">After completing the courses</Descriptions.Item>
+      <Descriptions.Item label="Bonus 1">
+      Programming dictionary in English language.
       </Descriptions.Item>
-      <Descriptions.Item label="Բոնուս 2">
-       Վեբ կայքերի օպտիմալացում (SEO)
+      <Descriptions.Item label="Bonus 2">
+       Search Engine Optimization course (SEO)
       </Descriptions.Item>
     </Descriptions>
    
@@ -95,8 +93,8 @@ function courses() {
     </div>
 
     <div className={styles.basic}>
-        <h1>Ֆրիլանս փաթեթ - զրոյից մինչև պրոֆեսիոնալ</h1>
-        <p>Դուք կսովորեք կազմել ճիշտ պորտֆոլիո, ֆրիլանս և մարքեթինգ</p> <br />
+        <h1>Freelance Package - from scratch to professional</h1>
+        <p>You will leran to create proper portfolio, make profitable freelance and digital marketing</p> <br />
       <div className={styles.descriptions}>
     <Descriptions 
       title=""
@@ -110,25 +108,17 @@ function courses() {
         xs: 1,
       }}
       className={styles.descriptions} >
-      <Descriptions.Item label="Ժամանակահատված">8 շաբաթ</Descriptions.Item>
-      <Descriptions.Item label="Դասերի քանակ">16 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="1 դասաժամ">1 ժամ 45 րոպե</Descriptions.Item>
-      <Descriptions.Item label="Ամսավճար">120.000 դր</Descriptions.Item>
-      <Descriptions.Item label="Ընդհանուր դասընթացի արժեք">240.000դր</Descriptions.Item>
-      <Descriptions.Item label="Ծրագրեր">SEO, SMM, UI/UX, Portfolio, Digital Marketing, Freelance, Google Ads</Descriptions.Item>
-      <Descriptions.Item label="1-ին դաս / ծանոթություն">Անվճար</Descriptions.Item>
-      <Descriptions.Item label="Շաբաթական">2 դասաժամ</Descriptions.Item>
-      <Descriptions.Item label="Տարիքային սահմանափակում">22 տարեկանից բարձր</Descriptions.Item>
-      <Descriptions.Item label="Մեկ խմբում">Մինչև 5 հոգի</Descriptions.Item>
-      <Descriptions.Item label="Արդյունք՝ 3 նախագիծ">1.Պորտֆոլիո (ռեզյումե, անձնական վեբ-կայք) 2.Գովազդային արշավ 3.Ֆրիլանս և հեռակա աշխատանքային շփումներ</Descriptions.Item>
-      <Descriptions.Item label="Սերտիֆիկատ">Քննության արդյունքներով</Descriptions.Item>
-      {/* <Descriptions.Item label="1 ամիս աջակցություն"> դասընթացներն ավարտելուց հետո</Descriptions.Item> */}
-      {/* <Descriptions.Item label="Բոնուս 1">
-       Ծրագրավորման բառարան հայերեն անգլերեն լեզուներով։
-      </Descriptions.Item>
-      <Descriptions.Item label="Բոնուս 2">
-       Վեբ կայքերի օպտիմալացում (SEO)
-      </Descriptions.Item> */}
+      <Descriptions.Item label="Period">8 weeks</Descriptions.Item>
+      <Descriptions.Item label="Course hours">16 course hour</Descriptions.Item>
+      <Descriptions.Item label="1 course hour">1 hour 45 min</Descriptions.Item>
+      <Descriptions.Item label="Monthly">300$</Descriptions.Item>
+      <Descriptions.Item label="Total price">600$</Descriptions.Item>
+      <Descriptions.Item label="Programms">SEO, SMM, UI/UX, Portfolio, Digital Marketing, Freelance, Google Ads</Descriptions.Item>
+      <Descriptions.Item label="1st course">For free</Descriptions.Item>
+      <Descriptions.Item label="Weekly">2 course hours</Descriptions.Item>
+      <Descriptions.Item label="In 1 Group">Up to 5 students</Descriptions.Item>
+      <Descriptions.Item label="Result - 3 projects">1.Portfolio Website 2.Ad Campaign 3.Freelance and Real project Internship</Descriptions.Item>
+      <Descriptions.Item label="Certificate">By the exam results</Descriptions.Item>
     </Descriptions>
    
   </div> 

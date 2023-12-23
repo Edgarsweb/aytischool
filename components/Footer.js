@@ -26,25 +26,23 @@ function Footer() {
           <div className={footerStyles.footerBlock}>
             <h6>Algoschool</h6>
             <p className={footerStyles.footerDescription}>
-              Մենք կօգնենք ձեզ սովորել նոր մասնագիտություն, կամ կատարելագործել
-              այն։ Դուք ձեռք կբերեք պրակտիկ գիտելիքներ՝ միջազգային հարթակներում
-              աշխատանք գտնելու և տվապորիչ պորտֆոլիո ունենալու համար։
+            We will help you learn a new profession or improve it. You will gain practical knowledge to find work on international platforms and have an impressive portfolio.
             </p>
           </div>
 
           <div className={footerStyles.footerBlock}>
-            <h6>Ցանկ</h6>
+            <h6>Menu</h6>
             <ul>
               <li>
-                <Link href="/">Գլխավոր</Link>
+                <Link href="/">Home</Link>
               </li>
 
               <li>
-                <Link href="/courses"> Դասընթանցեր</Link>
+                <Link href="/courses"> Courses</Link>
               </li>
 
               <li>
-                <Link href="/contact">Կապ</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -62,9 +60,9 @@ function Footer() {
           </div> */}
 
           <div className={footerStyles.footerBlock}>
-            <h6>Այլ</h6>
+            <h6>Other</h6>
             <a href="mailto:algoschoolco@gmail.com">
-              <MailOutlined /> Էլ․փոստ
+              <MailOutlined /> Email
             </a>
             <a href="https://wa.me/+79253807313">
               <WhatsAppOutlined /> Whatsapp
