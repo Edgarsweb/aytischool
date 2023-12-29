@@ -40,7 +40,7 @@ function Tutorials() {
       </div>
 
       <h2 className={tutorials.title}>
-        <ReadOutlined className={tutorials.bookIcon} /> Դասընթացներ
+        <ReadOutlined className={tutorials.bookIcon} /> Courses
       </h2>
       <div className={tutorials.container} id="#courses">
         <Card
