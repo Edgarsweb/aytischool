@@ -88,7 +88,7 @@ function Tutorials() {
                 400<sub>$</sub>
                 <sup>Bestseller</sup>{" "}
               </span>
-              <p>Total price</p>
+              {/* <p>Total price</p> */}
             </div>
           </div>
 <Link href="/courses"><button>
