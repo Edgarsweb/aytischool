@@ -4,7 +4,7 @@ import navStyles from "@/styles/Nav.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import logo from "../src/pages/images/Algologo.png";
+// import logo from "../src/pages/images/fullsmart_digital_academy_logo.webp";
 // import en from '../locales/en';
 // import hy from '../locales/hy';
 import {
@@ -32,10 +32,11 @@ const Nav = () => {
     <header className={navStyles.header}>
       <nav className={navStyles.navbar}>
         <Link href="/">
-          {/* <span className={navStyles.navLogo}>
-            GELD<span className={navStyles.web}>COIN</span> */}
-            <Image src={logo} alt="Algo Logo" width={124} height={124} />
-          {/* </span> */}
+          <span className={navStyles.navLogo}>
+            Full<span className={navStyles.web}> Smart</span>
+            {/* <Image src={logo} alt="Algo Logo" width={324} height={"100%"} /> */}
+          </span>
+          <span className={navStyles.subLogo}>DIGITAL ACADEMY</span>
         </Link>
         {/* </li> */}
         <ul

@@ -198,7 +198,7 @@
 
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 992px) {
   .main .firstBlock, .main .whyUs {
     flex-direction: column;
     padding: 0px 15px;

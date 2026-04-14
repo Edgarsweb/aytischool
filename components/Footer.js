@@ -24,7 +24,7 @@ function Footer() {
 
         <div className={footerStyles.row}>
           <div className={footerStyles.footerBlock}>
-            <h6>Algoschool</h6>
+            <h6>Full Smart Digital Academy</h6>
             <p className={footerStyles.footerDescription}>
             We will help you learn a new profession or improve it. You will gain practical knowledge to find work on international platforms and have an impressive portfolio.
             </p>
@@ -61,14 +61,14 @@ function Footer() {
 
           <div className={footerStyles.footerBlock}>
             <h6>Other</h6>
-            <a href="mailto:algoschoolco@gmail.com">
+            <a href="mailto:fullsmartdigital@gmail.com">
               <MailOutlined /> Email
             </a>
             <a href="https://wa.me/+79253807313">
               <WhatsAppOutlined /> Whatsapp
             </a>
             <div className={footerStyles.socialMedia}>
-              <a href="https://instagram.com/algoschool.co?igshid=MzRlODBiNWFlZA==/">
+              <a href="https://instagram.com/fullsmartdigital">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
 
@@ -94,7 +94,7 @@ function Footer() {
         <div className={footerStyles.copyright}>
           <p className={footerStyles.copyrightText}>
             {" "}
-            Copyright © 2023 <a href="https://www.algoschool.co/">Algoschool</a>
+            Copyright © 2023 <a href="https://www.fullsmartdigital.academy/">Full Smart Digital Academy</a>
           </p>
         </div>
       </footer>

@@ -11,10 +11,9 @@ background: linear-gradient(to right, #8f94fb, #4e54c8);
 
 .navbar {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
-  /* padding: 1rem 0rem; */
+  padding: 1rem 0rem;
   max-width: 1290px;
   margin: auto;
 
@@ -58,7 +57,7 @@ background: linear-gradient(to right, #8f94fb, #4e54c8);
 }
 
 .activeName {
-  color: black !important;
+  color: coral !important;
 }
 
 .navLink {
@@ -74,11 +73,18 @@ background: linear-gradient(to right, #8f94fb, #4e54c8);
 .navLogo {
   font-size: 2.1rem;
   font-weight: 900;
-  color: #2f2207;
+  color: #fff !important;
 }
 
 .web {
-  color: #0070f3;
+  color: coral;
+}
+
+.subLogo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  display: block;
 }
 
 .navButton {
