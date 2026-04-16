@@ -94,7 +94,7 @@ function Footer() {
         <div className={footerStyles.copyright}>
           <p className={footerStyles.copyrightText}>
             {" "}
-            Copyright © 2023 <a href="https://www.fullsmartdigital.academy/">Full Smart Digital Academy</a>
+            Copyright © 2026 <a href="https://www.fullsmartdigital.academy/">Full Smart Digital Academy</a>
           </p>
         </div>
       </footer>
