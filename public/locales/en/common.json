@@ -1,7 +1,7 @@
 {
     "nav": {
-      "brand1": "Scale",
-      "brand2": "Hex",
+      "brand1": "Full",
+      "brand2": "Smart",
       "sub": "ACADEMY",
       "home": "Home",
       "courses": "Courses",
@@ -55,7 +55,7 @@
       "subtitle": "Students aged 16-50 study with us. In IT project management and digital marketing, the only thing that matters is the desire to learn."
     },
     "footer": {
-      "brand": "Scalehex Academy",
+      "brand": "Full Smart Academy",
       "description": "We help you learn or advance a career in IT project management and digital marketing. Gain practical, internationally relevant skills and build a portfolio that opens doors.",
       "menu": "Menu",
       "home": "Home",
@@ -64,7 +64,7 @@
       "other": "Other",
       "email": "Email",
       "whatsapp": "Whatsapp",
-      "copyright": "Copyright © 2026 Scalehex Academy"
+      "copyright": "Copyright © 2026 Full Smart Academy"
     },
     "coursesPage": {
       "tabs": {
@@ -104,8 +104,8 @@
     },
     "contactPage": {
       "title": "Enroll today",
-      "metaTitle": "Contact - Get in touch | Scalehex Academy: IT Project Management & Marketing Courses",
-      "metaDescription": "Scalehex Academy offers IT Project Management, Jira/Kanban, and Meta Ads courses online and in Yerevan. Build job-ready skills for international remote work.",
+      "metaTitle": "Contact - Get in touch | Full Smart Academy: IT Project Management & Marketing Courses",
+      "metaDescription": "Full Smart Academy offers IT Project Management, Jira/Kanban, and Meta Ads courses online and in Yerevan. Build job-ready skills for international remote work.",
       "form": {
         "name": "Full name *",
         "phone": "Phone *",

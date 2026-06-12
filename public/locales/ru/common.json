@@ -1,7 +1,7 @@
 {
     "nav": {
-      "brand1": "Скейл",
-      "brand2": "Хекс",
+      "brand1": "Фулл",
+      "brand2": "Смарт",
       "sub": "АКАДЕМИЯ",
       "home": "Главная",
       "courses": "Курсы",
@@ -55,7 +55,7 @@
       "subtitle": "У нас учатся студенты от 16 до 50 лет. В управлении IT-проектами и цифровом маркетинге важно только желание учиться."
     },
     "footer": {
-      "brand": "Scalehex Academy",
+      "brand": "Full Smart Academy",
       "description": "Мы помогаем освоить или развить карьеру в управлении IT-проектами и цифровом маркетинге. Получите практические навыки международного уровня и создайте портфолио, открывающее двери.",
       "menu": "Меню",
       "home": "Главная",
@@ -64,7 +64,7 @@
       "other": "Другое",
       "email": "Email",
       "whatsapp": "Whatsapp",
-      "copyright": "Copyright © 2026 Scalehex Academy"
+      "copyright": "Copyright © 2026 Full Smart Academy"
     },
     "coursesPage": {
       "tabs": {
@@ -104,8 +104,8 @@
     },
     "contactPage": {
       "title": "Записаться сегодня",
-      "metaTitle": "Контакты - Связаться с нами | Scalehex Academy: курсы управления проектами и маркетинга",
-      "metaDescription": "Scalehex Academy предлагает курсы по управлению IT-проектами, Jira/Kanban и Meta Ads онлайн и в Ереване. Получите навыки для международной удалённой работы.",
+      "metaTitle": "Контакты - Связаться с нами | Full Smart Academy: курсы управления проектами и маркетинга",
+      "metaDescription": "Full Smart Academy предлагает курсы по управлению IT-проектами, Jira/Kanban и Meta Ads онлайн и в Ереване. Получите навыки для международной удалённой работы.",
       "form": {
         "name": "Полное имя *",
         "phone": "Телефон *",
