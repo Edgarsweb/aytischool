@@ -6,9 +6,12 @@
 
 .main section {
   padding: 100px 0px 0px 0px;
-  background: #4e54c8;
+  background: #3a3f99;
+background: -webkit-linear-gradient(to right, #6b71e0, #3a3f99);
+background: linear-gradient(to right, #6b71e0, #3a3f99);
+  /* background: #4e54c8;
   background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
-  background: linear-gradient(to right, #8f94fb, #4e54c8);
+  background: linear-gradient(to right, #8f94fb, #4e54c8); */
 }
 
 .main .firstBlock {

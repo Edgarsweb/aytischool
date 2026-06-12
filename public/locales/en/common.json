@@ -1,0 +1,211 @@
+{
+    "nav": {
+      "brand1": "Scale",
+      "brand2": "Hex",
+      "sub": "ACADEMY",
+      "home": "Home",
+      "courses": "Courses",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title1": "Master Project Management,",
+      "title2": "Jira & Kanban,",
+      "title3": "and Meta Ads",
+      "subtitle": "Gain hands-on, job-ready skills in IT project management, agile delivery with Jira/Kanban, and performance marketing with Meta Ads. Build a portfolio that gets you hired internationally.",
+      "cta": "View Courses",
+      "followers": "Followers",
+      "reviews": "Reviews"
+    },
+    "marquee": "IT Project Management / Agile / Scrum / Kanban / Jira / Confluence / Meta Ads / Facebook Ads / Instagram Ads / Google Ads / Digital Marketing / Freelance / Remote Work",
+    "courses": {
+      "heading": "Courses",
+      "learnMore": "Learn more",
+      "weeks": "weeks",
+      "hours": "course hours",
+      "monthly": "Monthly",
+      "total": "Total price",
+      "bestseller": "Bestseller",
+      "card1": {
+        "title": "IT Project Management Foundations",
+        "description": "Agile, Scrum & Kanban fundamentals, Jira setup, sprint planning, 2 real projects",
+        "weeks": "10 weeks",
+        "hours": "20 course hours"
+      },
+      "card2": {
+        "title": "Advanced PM & Jira Mastery",
+        "description": "Foundations package + advanced Jira workflows, Confluence, stakeholder management, risk planning, 4 real projects",
+        "weeks": "20 weeks",
+        "hours": "40 course hours"
+      },
+      "card3": {
+        "title": "Meta Ads & Performance Marketing",
+        "description": "Facebook & Instagram Ads, audience targeting, campaign optimization, analytics, freelance positioning",
+        "weeks": "8 weeks",
+        "hours": "16 course hours"
+      }
+    },
+    "enrollment": {
+      "title1": "Course enrollment",
+      "title2": "procedure",
+      "text": "Procedure: choose your course, contact our specialist with any questions, and once everything is clear, fill in your details and selected package on the contact page. Our specialists will then reach out to discuss the next steps.",
+      "cta": "Get in touch"
+    },
+    "testimonials": {
+      "heading": "Testimonials",
+      "subtitle": "Students aged 16-50 study with us. In IT project management and digital marketing, the only thing that matters is the desire to learn."
+    },
+    "footer": {
+      "brand": "Scalehex Academy",
+      "description": "We help you learn or advance a career in IT project management and digital marketing. Gain practical, internationally relevant skills and build a portfolio that opens doors.",
+      "menu": "Menu",
+      "home": "Home",
+      "courses": "Courses",
+      "contact": "Contact",
+      "other": "Other",
+      "email": "Email",
+      "whatsapp": "Whatsapp",
+      "copyright": "Copyright © 2026 Scalehex Academy"
+    },
+    "coursesPage": {
+      "tabs": {
+        "pm": "Project Management",
+        "jira": "Jira & Kanban",
+        "metaads": "Meta Ads",
+        "agile": "Agile & Scrum",
+        "freelance": "Freelance & Remote Work"
+      },
+      "content": {
+        "pm": {
+          "title": "IT Project Management Services",
+          "text": "Learn how to plan, execute, and deliver IT projects on time and on budget. Covers project lifecycles, stakeholder communication, risk management, and real-world case studies from international teams.",
+          "button": "Free Consulting"
+        },
+        "jira": {
+          "title": "Jira & Kanban Toolset Training",
+          "text": "Master Jira from board setup to advanced workflows: backlogs, sprints, epics, automation rules, dashboards, and Kanban board design for efficient team delivery.",
+          "button": "Get Started"
+        },
+        "metaads": {
+          "title": "Meta Ads & Social Media Marketing",
+          "text": "Build, launch, and optimize Facebook and Instagram ad campaigns. Learn audience research, creative testing, budget allocation, pixel setup, and performance analytics.",
+          "button": "Contact Us"
+        },
+        "agile": {
+          "title": "Agile & Scrum Certification Prep",
+          "text": "Understand Scrum roles, ceremonies, and artifacts. Prepare for industry-recognized certifications while practicing on simulated sprint cycles and retrospectives.",
+          "button": "Contact Us"
+        },
+        "freelance": {
+          "title": "Freelance & Remote Work Readiness",
+          "text": "Position yourself for remote PM and marketing roles. Build your portfolio, LinkedIn presence, and pitch process for platforms like Upwork and direct outreach.",
+          "button": "Get a Proposal"
+        }
+      }
+    },
+    "contactPage": {
+      "title": "Enroll today",
+      "metaTitle": "Contact - Get in touch | Scalehex Academy: IT Project Management & Marketing Courses",
+      "metaDescription": "Scalehex Academy offers IT Project Management, Jira/Kanban, and Meta Ads courses online and in Yerevan. Build job-ready skills for international remote work.",
+      "form": {
+        "name": "Full name *",
+        "phone": "Phone *",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+      }
+    }
+    ,
+  "coursesDetail": {
+    "pm": {
+      "h1": "IT Project Management Foundations",
+      "desc": "Learn the fundamentals of Agile, Scrum, and Kanban, and start managing real projects with confidence",
+      "period": "Period",
+      "periodVal": "10 weeks",
+      "courses": "Courses",
+      "coursesVal": "20 course hours",
+      "hourLength": "1 course hour",
+      "hourLengthVal": "1 hour 45 min",
+      "monthly": "Monthly",
+      "monthlyVal": "150$",
+      "total": "Total price",
+      "totalVal": "400$",
+      "programs": "Programs",
+      "programsVal": "Agile, Scrum, Kanban, Jira basics, sprint planning",
+      "firstCourse": "1st course",
+      "firstCourseVal": "For free",
+      "weekly": "Weekly",
+      "weeklyVal": "2 course hours",
+      "group": "In 1 group",
+      "groupVal": "Up to 5 students",
+      "result": "Result - 2 projects",
+      "resultVal": "1. Project plan & charter, 2. Live Jira board for a simulated project",
+      "certificate": "Certificate",
+      "certificateVal": "By the exam results",
+      "support": "1 month tech support",
+      "supportVal": "After completing the courses",
+      "bonus1": "Bonus 1",
+      "bonus1Val": "PM terminology glossary in English and Armenian",
+      "bonus2": "Bonus 2",
+      "bonus2Val": "Resume & LinkedIn optimization for PM roles"
+    },
+    "jira": {
+      "h1": "Advanced PM & Jira Mastery",
+      "desc": "Build on the foundations with advanced Jira workflows, Confluence, and stakeholder management for real-world delivery",
+      "period": "Period",
+      "periodVal": "20 weeks",
+      "courses": "Courses",
+      "coursesVal": "40 course hours",
+      "hourLength": "1 course hour",
+      "hourLengthVal": "1 hour 45 min",
+      "monthly": "Monthly",
+      "monthlyVal": "150$",
+      "total": "Total price",
+      "totalVal": "800$",
+      "programs": "Programs",
+      "programsVal": "Advanced Jira workflows, Confluence, automation rules, dashboards, risk management, stakeholder communication",
+      "firstCourse": "1st course",
+      "firstCourseVal": "For free",
+      "weekly": "Weekly",
+      "weeklyVal": "2 course hours",
+      "group": "In 1 group",
+      "groupVal": "Up to 5 students",
+      "result": "Result - 4 projects",
+      "resultVal": "1. Multi-team Jira workspace, 2. Confluence project wiki, 3. Risk register & mitigation plan, 4. Full sprint retrospective deck",
+      "certificate": "Certificate",
+      "certificateVal": "By the exam results",
+      "support": "2 months tech support",
+      "supportVal": "After completing the courses",
+      "bonus1": "Bonus 1",
+      "bonus1Val": "PM terminology glossary in English and Armenian",
+      "bonus2": "Bonus 2",
+      "bonus2Val": "Agile certification exam prep guide"
+    },
+    "metaads": {
+      "h1": "Meta Ads & Performance Marketing",
+      "desc": "Learn to build, launch, and optimize profitable Facebook and Instagram ad campaigns for clients or your own brand",
+      "period": "Period",
+      "periodVal": "8 weeks",
+      "courses": "Course hours",
+      "coursesVal": "16 course hours",
+      "hourLength": "1 course hour",
+      "hourLengthVal": "1 hour 45 min",
+      "monthly": "Monthly",
+      "monthlyVal": "300$",
+      "total": "Total price",
+      "totalVal": "600$",
+      "programs": "Programs",
+      "programsVal": "Meta Ads Manager, audience research, pixel setup, creative testing, budget optimization, reporting",
+      "firstCourse": "1st course",
+      "firstCourseVal": "For free",
+      "weekly": "Weekly",
+      "weeklyVal": "2 course hours",
+      "group": "In 1 group",
+      "groupVal": "Up to 5 students",
+      "result": "Result - 3 projects",
+      "resultVal": "1. Live ad campaign with real budget, 2. Performance report & analysis, 3. Freelance pitch deck and case study",
+      "certificate": "Certificate",
+      "certificateVal": "By the exam results"
+    }
+  }
+  }
+  
