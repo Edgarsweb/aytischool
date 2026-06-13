@@ -172,6 +172,7 @@ export default function Home() {
           </div>
         </section>
         <Tutorials />
+        <div className={styles.dottedArea}></div>
 
         <div className={styles.whyUs}>
           <div className={styles.chunks}>
@@ -197,7 +198,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.dottedArea}></div>
+        
         {/* <Testimonials /> */}
       </main>
     </>
