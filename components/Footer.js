@@ -163,7 +163,7 @@ function Footer() {
               <a href="https://instagram.com/fullsmart.ac">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100057426047883">
+              <a href="https://www.facebook.com/fullsmartdigital/">
                 <FacebookOutlined className={footerStyles.Facebook} />
               </a>
             </div>
