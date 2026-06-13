@@ -105,8 +105,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import heroImage from "../pages/images/stud.png";
-import register from "../pages/images/register.png";
+// import heroImage from "../pages/images/fullsmart_studs.webp";
+import register from "../pages/images/fullsmt.jpg";
 
 import { EditOutlined, StarOutlined, RightOutlined, MailOutlined } from "@ant-design/icons";
 import Testimonials from "../../components/Testimonials";
@@ -158,7 +158,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className={styles.chunks}>
+                {/* <div className={styles.chunks}>
                   <Image
                     src={heroImage}
                     alt="Hero image"
@@ -166,7 +166,7 @@ export default function Home() {
                     height="100%"
                     priority
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

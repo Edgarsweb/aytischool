@@ -3,12 +3,27 @@
  
  
 }
-
 .main section {
-  padding: 100px 0px 0px 0px;
+  padding: 50px 0 0 0;
+
+  background:
+  linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.90) 0%,
+    rgba(0, 0, 0, 0.75) 50%,
+    rgba(0, 0, 0, 0.55) 100%
+  ),
+    url('/images/fullsmart_studs.webp');
+
+  background-size: cover;
+  background-position:top;
+  background-repeat: no-repeat;
+}
+.main section {
+  /* padding: 100px 0px 0px 0px;
   background: #3a3f99;
 background: -webkit-linear-gradient(to right, #6b71e0, #3a3f99);
-background: linear-gradient(to right, #6b71e0, #3a3f99);
+background: linear-gradient(to right, #6b71e0, #3a3f99); */
   /* background: #4e54c8;
   background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
   background: linear-gradient(to right, #8f94fb, #4e54c8); */
@@ -44,6 +59,7 @@ background: linear-gradient(to right, #6b71e0, #3a3f99);
 
 .block {
   max-width: 645px;
+  min-height: 600px;
 }
 
 .block img {
@@ -62,11 +78,12 @@ background: linear-gradient(to right, #6b71e0, #3a3f99);
   justify-content: space-between;
   max-width: 1290px;
   margin: auto;
-  align-items: center;
+  align-items:flex-start
 }
 
 .whyUs .chunks {
-  max-width: 645px;
+  max-width: 745px;
+  height: 100%;
 }
 
 .whyUs .chunks img {
