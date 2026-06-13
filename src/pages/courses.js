@@ -181,18 +181,18 @@ export default function CoursesPage() {
               <Descriptions.Item label={t(`coursesDetail.${key}.hourLength`)}>
                 {t(`coursesDetail.${key}.hourLengthVal`)}
               </Descriptions.Item>
-              <Descriptions.Item label={t(`coursesDetail.${key}.monthly`)}>
+              {/* <Descriptions.Item label={t(`coursesDetail.${key}.monthly`)}>
                 {t(`coursesDetail.${key}.monthlyVal`)}
-              </Descriptions.Item>
+              </Descriptions.Item> */}
               <Descriptions.Item label={t(`coursesDetail.${key}.total`)}>
                 {t(`coursesDetail.${key}.totalVal`)}
               </Descriptions.Item>
               <Descriptions.Item label={t(`coursesDetail.${key}.programs`)}>
                 {t(`coursesDetail.${key}.programsVal`)}
               </Descriptions.Item>
-              <Descriptions.Item label={t(`coursesDetail.${key}.firstCourse`)}>
+              {/* <Descriptions.Item label={t(`coursesDetail.${key}.firstCourse`)}>
                 {t(`coursesDetail.${key}.firstCourseVal`)}
-              </Descriptions.Item>
+              </Descriptions.Item> */}
               <Descriptions.Item label={t(`coursesDetail.${key}.weekly`)}>
                 {t(`coursesDetail.${key}.weeklyVal`)}
               </Descriptions.Item>
@@ -208,9 +208,9 @@ export default function CoursesPage() {
 
               {key !== "metaads" && (
                 <>
-                  <Descriptions.Item label={t(`coursesDetail.${key}.support`)}>
+                  {/* <Descriptions.Item label={t(`coursesDetail.${key}.support`)}>
                     {t(`coursesDetail.${key}.supportVal`)}
-                  </Descriptions.Item>
+                  </Descriptions.Item> */}
                   <Descriptions.Item label={t(`coursesDetail.${key}.bonus1`)}>
                     {t(`coursesDetail.${key}.bonus1Val`)}
                   </Descriptions.Item>

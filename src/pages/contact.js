@@ -137,7 +137,7 @@ export default function Contact() {
           name="keywords"
           content="IT project management, Jira, Kanban, Scrum, Agile, Meta Ads, Facebook Ads, digital marketing courses, online course, Yerevan"
         />
-        <link rel="canonical" href="https://scalehex.academy/contact" />
+        <link rel="canonical" href="https://fullsmart.academy/contact" />
         <meta name="description" content={t("contactPage.metaDescription")} />
       </Head>
 

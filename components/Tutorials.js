@@ -285,18 +285,18 @@ function Tutorials() {
             </div>
 
             <div className={tutorials.prices}>
-              <div className={tutorials.priceMonth}>
+              {/* <div className={tutorials.priceMonth}>
                 <span>
                   {idx === 0 ? 150 : idx === 1 ? 150 : 300}
                   <sub>$</sub>
                 </span>
                 <p>{t("courses.monthly")}</p>
-              </div>
+              </div> */}
 
               <div className={tutorials.priceCourse}>
                 <span>
-                  {idx === 0 ? 400 : idx === 1 ? 800 : 600}
-                  <sub>$</sub>
+                  {idx === 0 ? 400 : idx === 1 ? 200 : 200}
+                  <sub>€</sub>
                   {idx === 0 && <sup>{t("courses.bestseller")}</sup>}
                 </span>
                 <p>{t("courses.total")}</p>
