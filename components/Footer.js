@@ -153,14 +153,14 @@ function Footer() {
 
           <div className={footerStyles.footerBlock}>
             <h6>{t("footer.other")}</h6>
-            <a href="mailto:info@scalehex.academy">
+            <a href="mailto:fullsmartacademy@gmail.com">
               <MailOutlined /> {t("footer.email")}
             </a>
             <a href="https://wa.me/+37493007110">
               <WhatsAppOutlined /> {t("footer.whatsapp")}
             </a>
             <div className={footerStyles.socialMedia}>
-              <a href="https://instagram.com/scalehex">
+              <a href="https://instagram.com/fullsmart.ac">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
               <a href="https://www.facebook.com/profile.php?id=100057426047883">
