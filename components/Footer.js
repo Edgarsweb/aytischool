@@ -153,7 +153,7 @@ function Footer() {
 
           <div className={footerStyles.footerBlock}>
             <h6>{t("footer.other")}</h6>
-            <a href="mailto:fullsmartacademy@gmail.com">
+            <a href="mailto:fullsmartdigital@gmail.com">
               <MailOutlined /> {t("footer.email")}
             </a>
             <a href="https://wa.me/+37493007110">
