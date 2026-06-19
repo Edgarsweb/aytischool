@@ -147,7 +147,7 @@ export default function Contact() {
         </h1>
         <div className={contactStyles.contactBlock}>
           <form
-            action="https://formsubmit.co/fullsmartacademy@gmail.com"
+            action="https://formsubmit.co/fullsmartdigital@gmail.com"
             method="POST"
             className={contactStyles.form}
           >
